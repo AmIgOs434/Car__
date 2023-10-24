@@ -1,0 +1,72 @@
+.App{
+    margin-top: 80px;
+}
+
+h1{
+    text-align:center;
+    color: rgb(153, 131, 131);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.item{
+    background: rgb(153, 131, 131);
+    height: 150px;
+    width: 150px;
+    text-align:center;
+    align-items: center;
+    border-radius: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.item:hover img{
+    transform: scale(0.8);
+    cursor: pointer;
+}
+
+.alice-carousel__dots-item:not(.__custom):hover, .alice-carousel__dots-item:not(.__custom).__active{
+    background-color: rgb(153, 131, 131) !important;
+}
+.p-4 {
+
+    display: flex;
+    justify-content: center;
+    padding: 1.5rem!important;
+}
+.left_{
+    padding: 0!important;
+    position: absolute;
+    left: 0;
+    margin-top: 193px;
+    /* margin-right: -22px; */
+    margin-left: 0px;
+
+}
+.right_ {
+    padding: 0!important;
+    width: 43px;
+    position: absolute;
+    right: 0;
+    margin-top: 193px;
+    margin-right: 0px;
+}
+
+
+@media (min-width: 630px){
+
+}
+.text_01_ {
+    color: red;
+    margin: 5px 30px -30px 30px;
+    padding: 0;
+    display: none;
+}
+.dis_content{
+    display: flex!important;
+}
+.posithion{
+    visibility:hidden;
+     height: 0;
+      overflow: hidden
+}
