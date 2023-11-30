@@ -7,6 +7,66 @@ import "react-multi-carousel/lib/styles.css";
 import '../src/qwq.scss'
 import Gallery, { Carousel22 } from './ButtonGroups.js'
 
+import LEXUS_ES from '../src/photo/LEXUS ES.jpg'
+import LEXUS_LS from '../src/photo/LEXUS LS.jpg'
+import LEXUS_LX_570 from '../src/photo/LEXUS LX 570.jpeg'
+import Lexus_RX_350 from '../src/photo/Lexus RX 350.jpg'
+
+
+import Toyota_Alphard from '../src/photo/Toyota Alphard 2024.jpg'
+
+import camry_toyota from '../src/photo/camry toyota.jpg'
+
+
+import Tesla_plaid from '../src/photo/Tesla plaid.jpg'
+import Tesla_model_X from '../src/photo/Tesla model X.jpg'
+
+
+
+import Volkswagen_Jetta from '../src/photo/Volkswagen Jetta.jpg'
+import Volkswagen_tiguan_2024 from '../src/photo/Volkswagen tiguan 2024.jpg'
+import Volkswagen_Id from '../src/photo/Volkswagen Id.jpg'
+
+
+
+import Cadillac_Escalade_2024 from '../src/photo/Cadillac Escalade 2024.jpeg'
+
+
+import Hendai_elantra from '../src/photo/Hendai elantra.jpg'
+import Hendai_Tucson from '../src/photo/Hendai Tucson.jpg'
+
+import Chevrolet_Monza from '../src/photo/Chevrolet Monza.jpeg'
+
+import Zeekr_X from '../src/photo/Zeekr X.jpg'
+
+import Voyah_dream from '../src/photo/Voyah dream.jpg'
+
+import Suzuki_Jamni from '../src/photo/Suzuki Jamni.jpeg'
+
+
+import camry_toyota1 from '../src/photo/car/camry toyota.jpg'
+import Toyota_Sequoia from '../src/photo/car/Toyota Sequoia.jpg'
+import Dodge_RAM from '../src/photo/car/Dodge RAM.jpg'
+import Ford_raptor from '../src/photo/car/Ford raptor.jpg'
+import Geely_Monjaro from '../src/photo/car/Geely Monjaro.jpg'
+import Geely_Coolray from '../src/photo/car/Geely Coolray.jpg'
+import Hongqi_H5 from '../src/photo/car/Hongqi H5.jpg'
+import Hongqi_HS5 from '../src/photo/car/Hongqi HS5.jpg'
+import Lixiang_L7 from '../src/photo/car/Lixiang L7.jpg'
+import Lixiang_L8 from '../src/photo/car/Lixiang L8.jpg'
+import Lixiang_L9 from '../src/photo/car/Lixiang L9.jpg'
+import Voyah_Dream from '../src/photo/car/Voyah Dream.jpg'
+import Voyah_Free from '../src/photo/car/Voyah Free.jpg'
+// import Zeekr_X from '../src/photo/Zeekr X.jpg'
+import Zeekr_001 from '../src/photo/car/Zeekr 001.jpg'
+
+
+
+
+
+
+
+
 import  { EventObject } from 'react-alice-carousel';
 
 
@@ -16,6 +76,7 @@ import AliceCarousel from 'react-alice-carousel';
 import 'react-alice-carousel/lib/alice-carousel.css';
 import App1 from './ButtonGroups';
 import axios from 'axios';
+import { Carousel23 } from './ButtonGroups1';
 function App() {
 
 
@@ -24,6 +85,7 @@ function App() {
     0: { items: 1 },
     568: { items: 2 },
     1024: { items: 3 },
+
   };
   
 
@@ -33,7 +95,7 @@ function App() {
     <div class="featured-car-card">
 
       <figure class="card-banner">
-        <img src="https://foto.carexpert.ru/img/foto1680/bmw/bmwix052.jpg" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
+        <img src={camry_toyota} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
           class="w-100"/>
       </figure>
 
@@ -41,10 +103,10 @@ function App() {
 
         <div class="card-title-wrapper">
           <h3 class="h3 card-title">
-            <a href="#">BMW iX M60.</a>
+            <a href="#">Toyota Camry (китайская версия)</a>
           </h3>
 
-          <data class="year" value="2021">2023</data>
+          <data class="year" value="2023">2023</data>
         </div>
 
         <ul class="card-list">
@@ -96,7 +158,7 @@ function App() {
                  <div class="featured-car-card">
    
                    <figure class="card-banner">
-                     <img src="https://aybaz.ru/wp-content/uploads/4/1/3/413053fb979d18b0edb9ad4920d15b42.jpeg" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
+                     <img src={Toyota_Alphard} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
                        class="w-100"/>
                    </figure>
    
@@ -104,7 +166,7 @@ function App() {
    
                      <div class="card-title-wrapper">
                        <h3 class="h3 card-title">
-                         <a href="#">BMW X6</a>
+                         <a href="#">Toyota Alphard</a>
                        </h3>
    
                        <data class="year" value="2023">2023</data>
@@ -160,7 +222,7 @@ function App() {
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="https://psv4.userapi.com/c909628/u210034432/docs/d2/b324ec5fbc55/image_1615993584956.jpg?extra=eCssfyxTboQQKdZbWqu-1Tkw148oXGq6-JmNI9n3D_59YC0hFPIb0-RM5JuvAiR8Oi0WdtMyfdrzsNiZY5bMahROY3XTA_lFJp5xmDBAjsmEzOp2afnUCeUO0WSHydBqDtQmRPAgGlUmEN5MQIOYw1Dv" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
+                  <img src={Toyota_Sequoia} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -168,10 +230,10 @@ function App() {
 
                   <div class="card-title-wrapper">
                     <h3 class="h3 card-title">
-                      <a href="#">BMW 740Li xDrive</a>
+                      <a href="#">Toyota Sequoia</a>
                     </h3>
 
-                    <data class="year" value="2021">2023</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -220,135 +282,7 @@ function App() {
               </div>
             </li>,
               
-               <li class='car_padding'>
-               <div class="featured-car-card">
- 
-                 <figure class="card-banner">
-                   <img src="https://psv4.userapi.com/c909628/u210034432/docs/d26/f6f0b97cab74/cq5dam_resized_img_585_low_time1623940443382.jpg?extra=kKvo05X4AxrKg0fliPu_0UzXlwiyi1vF2CWq0lCFXAzBu2ynmcvaNsx9r19JCtP36nSy54GuOnPCq5Ey-UhV_NzhcTsR7Ud0h_1pU75STv1DcHIQx6ZZLPQRMWk0CxUvIQlDcfs9NgneDJtS-HUVAT9e" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
-                     class="w-100"/>
-                 </figure>
- 
-                 <div class="card-content">
- 
-                   <div class="card-title-wrapper">
-                     <h3 class="h3 card-title">
-                       <a href="#">BMW X7</a>
-                     </h3>
- 
-                     <data class="year" value="2021">2023</data>
-                   </div>
- 
-                   <ul class="card-list">
- 
-                     <li class="card-list-item">
-                       <ion-icon name="people-outline"></ion-icon>
- 
-                       <span class="card-item-text">4 Человека</span>
-                     </li>
- 
-                     <li class="card-list-item">
-                       <ion-icon name="flash-outline"></ion-icon>
- 
-                       <span class="card-item-text">Бензин</span>
-                     </li>
- 
-                     <li class="card-list-item">
-                       <ion-icon name="speedometer-outline"></ion-icon>
- 
-                       <span class="card-item-text">6.1km / 1-литр</span>
-                     </li>
- 
-                     <li class="card-list-item">
-                       <ion-icon name="hardware-chip-outline"></ion-icon>
- 
-                       <span class="card-item-text">Автомат</span>
-                     </li>
- 
-                   </ul>
- 
-                   <div class="card-price-wrapper">
- 
-                   
-                      <div class='price'>$440
-                       </div> 
-                   
- 
-                
- 
-                     <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
- 
-                   </div>
- 
-                 </div>
- 
-               </div>
-             </li>, 
-
-
-               <li class='car_padding'>
-              <div class="featured-car-card">
-
-                <figure class="card-banner">
-                  <img src="https://psv4.userapi.com/c909628/u210034432/docs/d52/a4eb2ce06509/cq5dam_resized_img_585_low_time1642508745578.jpg?extra=Zo2RQdx64q21fmacn4xH5jZN2QAo7Rm6HX3QrS9twxqXBghzm8aIAfyAxUe0wHOWOX00vhXM0MZhERVIT9H5JCL_T2GY_kWMtiK4JJkBB5tAQrGjS_Pv0yYqNTLrmW4CLOKEq3JmvES0lV5a0Sd1h-oc" loading="lazy" width="440" height="300"
-                    class="w-100"/>
-                </figure>
-
-                <div class="card-content">
-
-                  <div class="card-title-wrapper">
-                    <h3 class="h3 card-title">
-                      <a href="#">BMW 8 CABRIO</a>
-                    </h3>
-
-                    <data class="year" value="2021">2022</data>
-                  </div>
-
-                  <ul class="card-list">
-
-                    <li class="card-list-item">
-                      <ion-icon name="people-outline"></ion-icon>
-
-                      <span class="card-item-text">4 Человека</span>
-                    </li>
-
-                    <li class="card-list-item">
-                      <ion-icon name="flash-outline"></ion-icon>
-
-                      <span class="card-item-text">Бензин</span>
-                    </li>
-
-                    <li class="card-list-item">
-                      <ion-icon name="speedometer-outline"></ion-icon>
-
-                      <span class="card-item-text">6.1km / 1-литр</span>
-                    </li>
-
-                    <li class="card-list-item">
-                      <ion-icon name="hardware-chip-outline"></ion-icon>
-
-                      <span class="card-item-text">Автомат</span>
-                    </li>
-
-                  </ul>
-
-                  <div class="card-price-wrapper">
-
-                  
-                     <div class='price'>$440
-                      </div> 
-                  
-
-               
-
-                    <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>,   
-
+          
  
 
   ];
@@ -357,7 +291,7 @@ function App() {
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="https://21motoring.com/wp-content/uploads/2022/10/2023-mercedes-amg-c63-s-r-hybrid-still-image-1024x576.jpg" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
+                  <img src={Tesla_plaid} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -365,10 +299,10 @@ function App() {
 
                   <div class="card-title-wrapper">
                     <h3 class="h3 card-title">
-                      <a href="#">Mercedes-AMG C63 </a>
+                      <a href="#">Tesla plaid </a>
                     </h3>
 
-                    <data class="year" value="2021">2021</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -420,7 +354,7 @@ function App() {
                 <div class="featured-car-card">
   
                   <figure class="card-banner">
-                    <img src="https://avtomancar.com/wp-content/uploads/2023/07/novye-modeli-mersedes-bencz-2023-2024_64c81b8f8d8f1.jpeg" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
+                    <img src={Tesla_model_X} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
                       class="w-100"/>
                   </figure>
   
@@ -428,10 +362,10 @@ function App() {
   
                     <div class="card-title-wrapper">
                       <h3 class="h3 card-title">
-                        <a href="#">MERSEDES GLB</a>
+                        <a href="#">Tesla model X</a>
                       </h3>
   
-                      <data class="year" value="2021">2023</data>
+                      <data class="year" value="2023">2023</data>
                     </div>
   
                     <ul class="card-list">
@@ -479,133 +413,7 @@ function App() {
   
                 </div>
               </li>,   
-               <li class='car_padding'>
-              <div class="featured-car-card">
-
-                <figure class="card-banner">
-                  <img src="https://21motoring.com/wp-content/uploads/2022/10/2022-mercedes-amg-gls-63-moving-image-1024x682.jpg" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
-                    class="w-100"/>
-                </figure>
-
-                <div class="card-content">
-
-                  <div class="card-title-wrapper">
-                    <h3 class="h3 card-title">
-                      <a href="#"> Mercedes-AMG GLS 63</a>
-                    </h3>
-
-                    <data class="year" value="2021">2023</data>
-                  </div>
-
-                  <ul class="card-list">
-
-                    <li class="card-list-item">
-                      <ion-icon name="people-outline"></ion-icon>
-
-                      <span class="card-item-text">4 Человека</span>
-                    </li>
-
-                    <li class="card-list-item">
-                      <ion-icon name="flash-outline"></ion-icon>
-
-                      <span class="card-item-text">Бензин</span>
-                    </li>
-
-                    <li class="card-list-item">
-                      <ion-icon name="speedometer-outline"></ion-icon>
-
-                      <span class="card-item-text">6.1km / 1-литр</span>
-                    </li>
-
-                    <li class="card-list-item">
-                      <ion-icon name="hardware-chip-outline"></ion-icon>
-
-                      <span class="card-item-text">Автомат</span>
-                    </li>
-
-                  </ul>
-
-                  <div class="card-price-wrapper">
-
-                  
-                     <div class='price'>$440
-                      </div> 
-                  
-
-               
-
-                    <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>,
-            
-            <li class='car_padding'>
-              <div class="featured-car-card">
-
-                <figure class="card-banner">
-                  <img src="https://21motoring.com/wp-content/uploads/2022/10/2022-mercedes-amg-e-63-e-moving-image-1024x512.jpg" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
-                    class="w-100"/>
-                </figure>
-
-                <div class="card-content">
-
-                  <div class="card-title-wrapper">
-                    <h3 class="h3 card-title">
-                      <a href="#">Mercedes-AMG E63 S</a>
-                    </h3>
-
-                    <data class="year" value="2021">2021</data>
-                  </div>
-
-                  <ul class="card-list">
-
-                    <li class="card-list-item">
-                      <ion-icon name="people-outline"></ion-icon>
-
-                      <span class="card-item-text">4 Человека</span>
-                    </li>
-
-                    <li class="card-list-item">
-                      <ion-icon name="flash-outline"></ion-icon>
-
-                      <span class="card-item-text">Бензин</span>
-                    </li>
-
-                    <li class="card-list-item">
-                      <ion-icon name="speedometer-outline"></ion-icon>
-
-                      <span class="card-item-text">6.1km / 1-литр</span>
-                    </li>
-
-                    <li class="card-list-item">
-                      <ion-icon name="hardware-chip-outline"></ion-icon>
-
-                      <span class="card-item-text">Автомат</span>
-                    </li>
-
-                  </ul>
-
-                  <div class="card-price-wrapper">
-
-                  
-                     <div class='price'>$440
-                      </div> 
-                  
-
-               
-
-                    <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>,   
+         
         
 
   ];
@@ -614,7 +422,7 @@ function App() {
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="https://s.auto.drom.ru/i24230/c/photos/fullsize/chery/tiggo_4/chery_tiggo_4_881398.jpg" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
+                  <img src={Volkswagen_Jetta} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -622,10 +430,10 @@ function App() {
 
                   <div class="card-title-wrapper">
                     <h3 class="h3 card-title">
-                      <a href="#">Chery Tiggo 4</a>
+                      <a href="#">Volkswagen Jetta</a>
                     </h3>
 
-                    <data class="year" value="2021">2021</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -677,7 +485,7 @@ function App() {
                 <div class="featured-car-card">
   
                   <figure class="card-banner">
-                    <img src="https://s.auto.drom.ru/i24195/c/photos/fullsize/chery/tiggo/chery_tiggo_420962.jpg" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
+                    <img src={Volkswagen_tiguan_2024} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
                       class="w-100"/>
                   </figure>
   
@@ -685,10 +493,10 @@ function App() {
   
                     <div class="card-title-wrapper">
                       <h3 class="h3 card-title">
-                        <a href="#">Chery Tiggo T11</a>
+                        <a href="#">Volkswagen tiguan 2024</a>
                       </h3>
   
-                      <data class="year" value="2021">2021</data>
+                      <data class="year" value="2023">2023</data>
                     </div>
   
                     <ul class="card-list">
@@ -740,7 +548,7 @@ function App() {
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="https://s.auto.drom.ru/i24205/c/photos/fullsize/chery/tiggo_3/chery_tiggo_3_676158.jpg" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
+                  <img src={Volkswagen_Id} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -748,10 +556,10 @@ function App() {
 
                   <div class="card-title-wrapper">
                     <h3 class="h3 card-title">
-                      <a href="#">Chery Tiggo 3</a>
+                      <a href="#">Volkswagen Id</a>
                     </h3>
 
-                    <data class="year" value="2021">2021</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -810,7 +618,7 @@ function App() {
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="https://sun9-19.userapi.com/impg/5gCprRezJoXIjmg06SKaw-aWm1DF7V1Dnxmarw/SGbwOUm9-qQ.jpg?size=1280x800&quality=96&sign=9380c26fa38ed250296b17cf5459d999&type=album" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
+                  <img src={LEXUS_ES} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -818,10 +626,10 @@ function App() {
 
                   <div class="card-title-wrapper">
                     <h3 class="h3 card-title">
-                      <a href="#">TOYOTA CAMRY 2.5V</a>
+                      <a href="#">LEXUS ES</a>
                     </h3>
 
-                    <data class="year" value="2021">2022</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -873,7 +681,7 @@ function App() {
                 <div class="featured-car-card">
   
                   <figure class="card-banner">
-                    <img src="https://autogoda.ru/premiya/2022/3817598.jpg" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
+                    <img src={LEXUS_LS} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
                       class="w-100"/>
                   </figure>
   
@@ -881,10 +689,10 @@ function App() {
   
                     <div class="card-title-wrapper">
                       <h3 class="h3 card-title">
-                        <a href="#">Land Cruiser Prado</a>
+                        <a href="#">LEXUS LS</a>
                       </h3>
   
-                      <data class="year" value="2021">2022</data>
+                      <data class="year" value="2023">2023</data>
                     </div>
   
                     <ul class="card-list">
@@ -932,204 +740,1946 @@ function App() {
   
                 </div>
               </li>,   
-               <li class='car_padding'>
-              <div class="featured-car-card">
-
-                <figure class="card-banner">
-                  <img src="https://avatars.mds.yandex.net/i?id=a39d5b6b95cdae4ff519dfd46a10de301f33cd8c-9858428-images-thumbs&n=13" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
-                    class="w-100"/>
-                </figure>
-
-                <div class="card-content">
-
-                  <div class="card-title-wrapper">
-                    <h3 class="h3 card-title">
-                      <a href="#">TOYOYA Hilux </a>
-                    </h3>
-
-                    <data class="year" value="2021">2021</data>
+                  <li class='car_padding'>
+                  <div class="featured-car-card">
+    
+                    <figure class="card-banner">
+                      <img src={LEXUS_LX_570} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+                        class="w-100"/>
+                    </figure>
+    
+                    <div class="card-content">
+    
+                      <div class="card-title-wrapper">
+                        <h3 class="h3 card-title">
+                          <a href="#">LEXUS_LX_570</a>
+                        </h3>
+    
+                        <data class="year" value="2023">2023</data>
+                      </div>
+    
+                      <ul class="card-list">
+    
+                        <li class="card-list-item">
+                          <ion-icon name="people-outline"></ion-icon>
+    
+                          <span class="card-item-text">4 Человек</span>
+                        </li>
+    
+                        <li class="card-list-item">
+                          <ion-icon name="flash-outline"></ion-icon>
+    
+                          <span class="card-item-text">Дизель</span>
+                        </li>
+    
+                        <li class="card-list-item">
+                          <ion-icon name="speedometer-outline"></ion-icon>
+    
+                          <span class="card-item-text">6.1km / 1-литр</span>
+                        </li>
+    
+                        <li class="card-list-item">
+                          <ion-icon name="hardware-chip-outline"></ion-icon>
+    
+                          <span class="card-item-text">Автомат</span>
+                        </li>
+    
+                      </ul>
+    
+                      <div class="card-price-wrapper">
+    
+                      
+                         <div class='price'>$440
+                          </div> 
+                      
+    
+                   
+    
+                        <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+    
+                      </div>
+    
+                    </div>
+    
                   </div>
+                </li>,   
+                    <li class='car_padding'>
+                    <div class="featured-car-card">
+      
+                      <figure class="card-banner">
+                        <img src={Lexus_RX_350} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+                          class="w-100"/>
+                      </figure>
+      
+                      <div class="card-content">
+      
+                        <div class="card-title-wrapper">
+                          <h3 class="h3 card-title">
+                            <a href="#">Lexus RX 350</a>
+                          </h3>
+      
+                          <data class="year" value="2023">2023</data>
+                        </div>
+      
+                        <ul class="card-list">
+      
+                          <li class="card-list-item">
+                            <ion-icon name="people-outline"></ion-icon>
+      
+                            <span class="card-item-text">8 Человек</span>
+                          </li>
+      
+                          <li class="card-list-item">
+                            <ion-icon name="flash-outline"></ion-icon>
+      
+                            <span class="card-item-text">Дизель</span>
+                          </li>
+      
+                          <li class="card-list-item">
+                            <ion-icon name="speedometer-outline"></ion-icon>
+      
+                            <span class="card-item-text">6.1km / 1-литр</span>
+                          </li>
+      
+                          <li class="card-list-item">
+                            <ion-icon name="hardware-chip-outline"></ion-icon>
+      
+                            <span class="card-item-text">Автомат</span>
+                          </li>
+      
+                        </ul>
+      
+                        <div class="card-price-wrapper">
+      
+                        
+                           <div class='price'>$440
+                            </div> 
+                        
+      
+                     
+      
+                          <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+      
+                        </div>
+      
+                      </div>
+      
+                    </div>
+                  </li>,   
+            //    <li class='car_padding'>
+            //   <div class="featured-car-card">
 
-                  <ul class="card-list">
+            //     <figure class="card-banner">
+            //       <img src="https://avatars.mds.yandex.net/i?id=a39d5b6b95cdae4ff519dfd46a10de301f33cd8c-9858428-images-thumbs&n=13" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+            //         class="w-100"/>
+            //     </figure>
 
-                    <li class="card-list-item">
-                      <ion-icon name="people-outline"></ion-icon>
+            //     <div class="card-content">
 
-                      <span class="card-item-text">5 Человек</span>
-                    </li>
+            //       <div class="card-title-wrapper">
+            //         <h3 class="h3 card-title">
+            //           <a href="#">TOYOYA Hilux </a>
+            //         </h3>
 
-                    <li class="card-list-item">
-                      <ion-icon name="flash-outline"></ion-icon>
+            //         <data class="year" value="2023">2023</data>
+            //       </div>
 
-                      <span class="card-item-text">Бензин</span>
-                    </li>
+            //       <ul class="card-list">
 
-                    <li class="card-list-item">
-                      <ion-icon name="speedometer-outline"></ion-icon>
+            //         <li class="card-list-item">
+            //           <ion-icon name="people-outline"></ion-icon>
 
-                      <span class="card-item-text">6.1km / 1-литр</span>
-                    </li>
+            //           <span class="card-item-text">5 Человек</span>
+            //         </li>
 
-                    <li class="card-list-item">
-                      <ion-icon name="hardware-chip-outline"></ion-icon>
+            //         <li class="card-list-item">
+            //           <ion-icon name="flash-outline"></ion-icon>
 
-                      <span class="card-item-text">Автомат</span>
-                    </li>
+            //           <span class="card-item-text">Бензин</span>
+            //         </li>
 
-                  </ul>
+            //         <li class="card-list-item">
+            //           <ion-icon name="speedometer-outline"></ion-icon>
 
-                  <div class="card-price-wrapper">
+            //           <span class="card-item-text">6.1km / 1-литр</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="hardware-chip-outline"></ion-icon>
+
+            //           <span class="card-item-text">Автомат</span>
+            //         </li>
+
+            //       </ul>
+
+            //       <div class="card-price-wrapper">
 
                   
-                     <div class='price'>$440
-                      </div> 
+            //          <div class='price'>$440
+            //           </div> 
                   
 
                
 
-                    <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+            //         <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
 
-                  </div>
+            //       </div>
 
-                </div>
+            //     </div>
 
-              </div>
-            </li>,  
-              <li class='car_padding'>
-              <div class="featured-car-card">
+            //   </div>
+            // </li>,  
+            //   <li class='car_padding'>
+            //   <div class="featured-car-card">
 
-                <figure class="card-banner">
-                  <img src="https://avatars.mds.yandex.net/i?id=92735a887da9c8cf711fc8813aedfe285202e214-10350639-images-thumbs&n=13" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
-                    class="w-100"/>
-                </figure>
+            //     <figure class="card-banner">
+            //       <img src="https://avatars.mds.yandex.net/i?id=92735a887da9c8cf711fc8813aedfe285202e214-10350639-images-thumbs&n=13" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+            //         class="w-100"/>
+            //     </figure>
 
-                <div class="card-content">
+            //     <div class="card-content">
 
-                  <div class="card-title-wrapper">
-                    <h3 class="h3 card-title">
-                      <a href="#">TOYOTA Fortuner</a>
-                    </h3>
+            //       <div class="card-title-wrapper">
+            //         <h3 class="h3 card-title">
+            //           <a href="#">TOYOTA Fortuner</a>
+            //         </h3>
 
-                    <data class="year" value="2021">2023</data>
-                  </div>
+            //         <data class="year" value="2023">2023</data>
+            //       </div>
 
-                  <ul class="card-list">
+            //       <ul class="card-list">
 
-                    <li class="card-list-item">
-                      <ion-icon name="people-outline"></ion-icon>
+            //         <li class="card-list-item">
+            //           <ion-icon name="people-outline"></ion-icon>
 
-                      <span class="card-item-text">4 Человека</span>
-                    </li>
+            //           <span class="card-item-text">4 Человека</span>
+            //         </li>
 
-                    <li class="card-list-item">
-                      <ion-icon name="flash-outline"></ion-icon>
+            //         <li class="card-list-item">
+            //           <ion-icon name="flash-outline"></ion-icon>
 
-                      <span class="card-item-text">Бензин</span>
-                    </li>
+            //           <span class="card-item-text">Бензин</span>
+            //         </li>
 
-                    <li class="card-list-item">
-                      <ion-icon name="speedometer-outline"></ion-icon>
+            //         <li class="card-list-item">
+            //           <ion-icon name="speedometer-outline"></ion-icon>
 
-                      <span class="card-item-text">6.1km / 1-литр</span>
-                    </li>
+            //           <span class="card-item-text">6.1km / 1-литр</span>
+            //         </li>
 
-                    <li class="card-list-item">
-                      <ion-icon name="hardware-chip-outline"></ion-icon>
+            //         <li class="card-list-item">
+            //           <ion-icon name="hardware-chip-outline"></ion-icon>
 
-                      <span class="card-item-text">Автомат</span>
-                    </li>
+            //           <span class="card-item-text">Автомат</span>
+            //         </li>
 
-                  </ul>
+            //       </ul>
 
-                  <div class="card-price-wrapper">
-
-                  
-                     <div class='price'>$440
-                      </div> 
-                  
-
-               
-
-                    <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
-
-                  </div>
-
-                </div>
-
-              </div>
-            </li>, 
-
-               <li class='car_padding'>
-              <div class="featured-car-card">
-
-                <figure class="card-banner">
-                  <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
-                    class="w-100"/>
-                </figure>
-
-                <div class="card-content">
-
-                  <div class="card-title-wrapper">
-                    <h3 class="h3 card-title">
-                      <a href="#">BMW RX-5</a>
-                    </h3>
-
-                    <data class="year" value="2021">2021</data>
-                  </div>
-
-                  <ul class="card-list">
-
-                    <li class="card-list-item">
-                      <ion-icon name="people-outline"></ion-icon>
-
-                      <span class="card-item-text">4 Человека</span>
-                    </li>
-
-                    <li class="card-list-item">
-                      <ion-icon name="flash-outline"></ion-icon>
-
-                      <span class="card-item-text">Бензин</span>
-                    </li>
-
-                    <li class="card-list-item">
-                      <ion-icon name="speedometer-outline"></ion-icon>
-
-                      <span class="card-item-text">6.1km / 1-литр</span>
-                    </li>
-
-                    <li class="card-list-item">
-                      <ion-icon name="hardware-chip-outline"></ion-icon>
-
-                      <span class="card-item-text">Автомат</span>
-                    </li>
-
-                  </ul>
-
-                  <div class="card-price-wrapper">
+            //       <div class="card-price-wrapper">
 
                   
-                     <div class='price'>$440
-                      </div> 
+            //          <div class='price'>$440
+            //           </div> 
                   
 
                
 
-                    <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+            //         <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
 
-                  </div>
+            //       </div>
 
-                </div>
+            //     </div>
 
-              </div>
-            </li>,   
+            //   </div>
+            // </li>, 
+
+            //    <li class='car_padding'>
+            //   <div class="featured-car-card">
+
+            //     <figure class="card-banner">
+            //       <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+            //         class="w-100"/>
+            //     </figure>
+
+            //     <div class="card-content">
+
+            //       <div class="card-title-wrapper">
+            //         <h3 class="h3 card-title">
+            //           <a href="#">BMW RX-5</a>
+            //         </h3>
+
+            //         <data class="year" value="2023">2023</data>
+            //       </div>
+
+            //       <ul class="card-list">
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="people-outline"></ion-icon>
+
+            //           <span class="card-item-text">4 Человека</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="flash-outline"></ion-icon>
+
+            //           <span class="card-item-text">Бензин</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="speedometer-outline"></ion-icon>
+
+            //           <span class="card-item-text">6.1km / 1-литр</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="hardware-chip-outline"></ion-icon>
+
+            //           <span class="card-item-text">Автомат</span>
+            //         </li>
+
+            //       </ul>
+
+            //       <div class="card-price-wrapper">
+
+                  
+            //          <div class='price'>$440
+            //           </div> 
+                  
+
+               
+
+            //         <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+
+            //       </div>
+
+            //     </div>
+
+            //   </div>
+            // </li>,   
 
        
 
   ];
 
+  const items5 = [
+    <li class='car_padding'>
+              <div class="featured-car-card">
 
+                <figure class="card-banner">
+                  <img src={Cadillac_Escalade_2024} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+                    class="w-100"/>
+                </figure>
 
+                <div class="card-content">
+
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Cadillac Escalade 2024</a>
+                    </h3>
+
+                    <data class="year" value="2023">2024</data>
+                  </div>
+
+                  <ul class="card-list">
+
+                    <li class="card-list-item">
+                      <ion-icon name="people-outline"></ion-icon>
+
+                      <span class="card-item-text">4 Человека</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="flash-outline"></ion-icon>
+
+                      <span class="card-item-text">Бензин</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="speedometer-outline"></ion-icon>
+
+                      <span class="card-item-text">9.1km / 1-литр</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                      <span class="card-item-text">Автомат</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-price-wrapper">
+
+                  
+                     <div class='price'>$440
+                      </div> 
+                  
+
+               
+
+                    <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>,
+          
+            //    <li class='car_padding'>
+            //   <div class="featured-car-card">
+
+            //     <figure class="card-banner">
+            //       <img src="https://avatars.mds.yandex.net/i?id=a39d5b6b95cdae4ff519dfd46a10de301f33cd8c-9858428-images-thumbs&n=13" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+            //         class="w-100"/>
+            //     </figure>
+
+            //     <div class="card-content">
+
+            //       <div class="card-title-wrapper">
+            //         <h3 class="h3 card-title">
+            //           <a href="#">TOYOYA Hilux </a>
+            //         </h3>
+
+            //         <data class="year" value="2023">2023</data>
+            //       </div>
+
+            //       <ul class="card-list">
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="people-outline"></ion-icon>
+
+            //           <span class="card-item-text">5 Человек</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="flash-outline"></ion-icon>
+
+            //           <span class="card-item-text">Бензин</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="speedometer-outline"></ion-icon>
+
+            //           <span class="card-item-text">6.1km / 1-литр</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="hardware-chip-outline"></ion-icon>
+
+            //           <span class="card-item-text">Автомат</span>
+            //         </li>
+
+            //       </ul>
+
+            //       <div class="card-price-wrapper">
+
+                  
+            //          <div class='price'>$440
+            //           </div> 
+                  
+
+               
+
+            //         <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+
+            //       </div>
+
+            //     </div>
+
+            //   </div>
+            // </li>,  
+            //   <li class='car_padding'>
+            //   <div class="featured-car-card">
+
+            //     <figure class="card-banner">
+            //       <img src="https://avatars.mds.yandex.net/i?id=92735a887da9c8cf711fc8813aedfe285202e214-10350639-images-thumbs&n=13" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+            //         class="w-100"/>
+            //     </figure>
+
+            //     <div class="card-content">
+
+            //       <div class="card-title-wrapper">
+            //         <h3 class="h3 card-title">
+            //           <a href="#">TOYOTA Fortuner</a>
+            //         </h3>
+
+            //         <data class="year" value="2023">2023</data>
+            //       </div>
+
+            //       <ul class="card-list">
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="people-outline"></ion-icon>
+
+            //           <span class="card-item-text">4 Человека</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="flash-outline"></ion-icon>
+
+            //           <span class="card-item-text">Бензин</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="speedometer-outline"></ion-icon>
+
+            //           <span class="card-item-text">6.1km / 1-литр</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="hardware-chip-outline"></ion-icon>
+
+            //           <span class="card-item-text">Автомат</span>
+            //         </li>
+
+            //       </ul>
+
+            //       <div class="card-price-wrapper">
+
+                  
+            //          <div class='price'>$440
+            //           </div> 
+                  
+
+               
+
+            //         <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+
+            //       </div>
+
+            //     </div>
+
+            //   </div>
+            // </li>, 
+
+            //    <li class='car_padding'>
+            //   <div class="featured-car-card">
+
+            //     <figure class="card-banner">
+            //       <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+            //         class="w-100"/>
+            //     </figure>
+
+            //     <div class="card-content">
+
+            //       <div class="card-title-wrapper">
+            //         <h3 class="h3 card-title">
+            //           <a href="#">BMW RX-5</a>
+            //         </h3>
+
+            //         <data class="year" value="2023">2023</data>
+            //       </div>
+
+            //       <ul class="card-list">
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="people-outline"></ion-icon>
+
+            //           <span class="card-item-text">4 Человека</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="flash-outline"></ion-icon>
+
+            //           <span class="card-item-text">Бензин</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="speedometer-outline"></ion-icon>
+
+            //           <span class="card-item-text">6.1km / 1-литр</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="hardware-chip-outline"></ion-icon>
+
+            //           <span class="card-item-text">Автомат</span>
+            //         </li>
+
+            //       </ul>
+
+            //       <div class="card-price-wrapper">
+
+                  
+            //          <div class='price'>$440
+            //           </div> 
+                  
+
+               
+
+            //         <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+
+            //       </div>
+
+            //     </div>
+
+            //   </div>
+            // </li>,   
+
+       
+
+  ];
+  const items6 = [
+    <li class='car_padding'>
+              <div class="featured-car-card">
+
+                <figure class="card-banner">
+                  <img src={Chevrolet_Monza} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+                    class="w-100"/>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Chevrolet Monza</a>
+                    </h3>
+
+                    <data class="year" value="2023">2023</data>
+                  </div>
+
+                  <ul class="card-list">
+
+                    <li class="card-list-item">
+                      <ion-icon name="people-outline"></ion-icon>
+
+                      <span class="card-item-text">4 Человека</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="flash-outline"></ion-icon>
+
+                      <span class="card-item-text">Бензин</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="speedometer-outline"></ion-icon>
+
+                      <span class="card-item-text">9.1km / 1-литр</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                      <span class="card-item-text">Автомат</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-price-wrapper">
+
+                  
+                     <div class='price'>$440
+                      </div> 
+                  
+
+               
+
+                    <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>,
+         
+            //    <li class='car_padding'>
+            //   <div class="featured-car-card">
+
+            //     <figure class="card-banner">
+            //       <img src="https://avatars.mds.yandex.net/i?id=a39d5b6b95cdae4ff519dfd46a10de301f33cd8c-9858428-images-thumbs&n=13" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+            //         class="w-100"/>
+            //     </figure>
+
+            //     <div class="card-content">
+
+            //       <div class="card-title-wrapper">
+            //         <h3 class="h3 card-title">
+            //           <a href="#">TOYOYA Hilux </a>
+            //         </h3>
+
+            //         <data class="year" value="2023">2023</data>
+            //       </div>
+
+            //       <ul class="card-list">
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="people-outline"></ion-icon>
+
+            //           <span class="card-item-text">5 Человек</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="flash-outline"></ion-icon>
+
+            //           <span class="card-item-text">Бензин</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="speedometer-outline"></ion-icon>
+
+            //           <span class="card-item-text">6.1km / 1-литр</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="hardware-chip-outline"></ion-icon>
+
+            //           <span class="card-item-text">Автомат</span>
+            //         </li>
+
+            //       </ul>
+
+            //       <div class="card-price-wrapper">
+
+                  
+            //          <div class='price'>$440
+            //           </div> 
+                  
+
+               
+
+            //         <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+
+            //       </div>
+
+            //     </div>
+
+            //   </div>
+            // </li>,  
+            //   <li class='car_padding'>
+            //   <div class="featured-car-card">
+
+            //     <figure class="card-banner">
+            //       <img src="https://avatars.mds.yandex.net/i?id=92735a887da9c8cf711fc8813aedfe285202e214-10350639-images-thumbs&n=13" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+            //         class="w-100"/>
+            //     </figure>
+
+            //     <div class="card-content">
+
+            //       <div class="card-title-wrapper">
+            //         <h3 class="h3 card-title">
+            //           <a href="#">TOYOTA Fortuner</a>
+            //         </h3>
+
+            //         <data class="year" value="2023">2023</data>
+            //       </div>
+
+            //       <ul class="card-list">
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="people-outline"></ion-icon>
+
+            //           <span class="card-item-text">4 Человека</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="flash-outline"></ion-icon>
+
+            //           <span class="card-item-text">Бензин</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="speedometer-outline"></ion-icon>
+
+            //           <span class="card-item-text">6.1km / 1-литр</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="hardware-chip-outline"></ion-icon>
+
+            //           <span class="card-item-text">Автомат</span>
+            //         </li>
+
+            //       </ul>
+
+            //       <div class="card-price-wrapper">
+
+                  
+            //          <div class='price'>$440
+            //           </div> 
+                  
+
+               
+
+            //         <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+
+            //       </div>
+
+            //     </div>
+
+            //   </div>
+            // </li>, 
+
+            //    <li class='car_padding'>
+            //   <div class="featured-car-card">
+
+            //     <figure class="card-banner">
+            //       <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+            //         class="w-100"/>
+            //     </figure>
+
+            //     <div class="card-content">
+
+            //       <div class="card-title-wrapper">
+            //         <h3 class="h3 card-title">
+            //           <a href="#">BMW RX-5</a>
+            //         </h3>
+
+            //         <data class="year" value="2023">2023</data>
+            //       </div>
+
+            //       <ul class="card-list">
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="people-outline"></ion-icon>
+
+            //           <span class="card-item-text">4 Человека</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="flash-outline"></ion-icon>
+
+            //           <span class="card-item-text">Бензин</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="speedometer-outline"></ion-icon>
+
+            //           <span class="card-item-text">6.1km / 1-литр</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="hardware-chip-outline"></ion-icon>
+
+            //           <span class="card-item-text">Автомат</span>
+            //         </li>
+
+            //       </ul>
+
+            //       <div class="card-price-wrapper">
+
+                  
+            //          <div class='price'>$440
+            //           </div> 
+                  
+
+               
+
+            //         <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+
+            //       </div>
+
+            //     </div>
+
+            //   </div>
+            // </li>,   
+
+       
+
+  ];
+
+  const items7 = [
+    <li class='car_padding'>
+              <div class="featured-car-card">
+
+                <figure class="card-banner">
+                  <img src={Hendai_elantra} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+                    class="w-100"/>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Hendai elantra</a>
+                    </h3>
+
+                    <data class="year" value="2023">2023</data>
+                  </div>
+
+                  <ul class="card-list">
+
+                    <li class="card-list-item">
+                      <ion-icon name="people-outline"></ion-icon>
+
+                      <span class="card-item-text">4 Человека</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="flash-outline"></ion-icon>
+
+                      <span class="card-item-text">Бензин</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="speedometer-outline"></ion-icon>
+
+                      <span class="card-item-text">9.1km / 1-литр</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                      <span class="card-item-text">Автомат</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-price-wrapper">
+
+                  
+                     <div class='price'>$440
+                      </div> 
+                  
+
+               
+
+                    <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>,
+                <li class='car_padding'>
+                <div class="featured-car-card">
   
+                  <figure class="card-banner">
+                    <img src={Hendai_Tucson} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+                      class="w-100"/>
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Hendai Tucson</a>
+                      </h3>
+  
+                      <data class="year" value="2023">2023</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">8 Человек</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Дизель</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">6.1km / 1-литр</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Автомат</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                    
+                       <div class='price'>$440
+                        </div> 
+                    
+  
+                 
+  
+                      <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>,   
+             
+            //    <li class='car_padding'>
+            //   <div class="featured-car-card">
+
+            //     <figure class="card-banner">
+            //       <img src="https://avatars.mds.yandex.net/i?id=a39d5b6b95cdae4ff519dfd46a10de301f33cd8c-9858428-images-thumbs&n=13" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+            //         class="w-100"/>
+            //     </figure>
+
+            //     <div class="card-content">
+
+            //       <div class="card-title-wrapper">
+            //         <h3 class="h3 card-title">
+            //           <a href="#">TOYOYA Hilux </a>
+            //         </h3>
+
+            //         <data class="year" value="2023">2023</data>
+            //       </div>
+
+            //       <ul class="card-list">
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="people-outline"></ion-icon>
+
+            //           <span class="card-item-text">5 Человек</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="flash-outline"></ion-icon>
+
+            //           <span class="card-item-text">Бензин</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="speedometer-outline"></ion-icon>
+
+            //           <span class="card-item-text">6.1km / 1-литр</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="hardware-chip-outline"></ion-icon>
+
+            //           <span class="card-item-text">Автомат</span>
+            //         </li>
+
+            //       </ul>
+
+            //       <div class="card-price-wrapper">
+
+                  
+            //          <div class='price'>$440
+            //           </div> 
+                  
+
+               
+
+            //         <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+
+            //       </div>
+
+            //     </div>
+
+            //   </div>
+            // </li>,  
+            //   <li class='car_padding'>
+            //   <div class="featured-car-card">
+
+            //     <figure class="card-banner">
+            //       <img src="https://avatars.mds.yandex.net/i?id=92735a887da9c8cf711fc8813aedfe285202e214-10350639-images-thumbs&n=13" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+            //         class="w-100"/>
+            //     </figure>
+
+            //     <div class="card-content">
+
+            //       <div class="card-title-wrapper">
+            //         <h3 class="h3 card-title">
+            //           <a href="#">TOYOTA Fortuner</a>
+            //         </h3>
+
+            //         <data class="year" value="2023">2023</data>
+            //       </div>
+
+            //       <ul class="card-list">
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="people-outline"></ion-icon>
+
+            //           <span class="card-item-text">4 Человека</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="flash-outline"></ion-icon>
+
+            //           <span class="card-item-text">Бензин</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="speedometer-outline"></ion-icon>
+
+            //           <span class="card-item-text">6.1km / 1-литр</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="hardware-chip-outline"></ion-icon>
+
+            //           <span class="card-item-text">Автомат</span>
+            //         </li>
+
+            //       </ul>
+
+            //       <div class="card-price-wrapper">
+
+                  
+            //          <div class='price'>$440
+            //           </div> 
+                  
+
+               
+
+            //         <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+
+            //       </div>
+
+            //     </div>
+
+            //   </div>
+            // </li>, 
+
+            //    <li class='car_padding'>
+            //   <div class="featured-car-card">
+
+            //     <figure class="card-banner">
+            //       <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+            //         class="w-100"/>
+            //     </figure>
+
+            //     <div class="card-content">
+
+            //       <div class="card-title-wrapper">
+            //         <h3 class="h3 card-title">
+            //           <a href="#">BMW RX-5</a>
+            //         </h3>
+
+            //         <data class="year" value="2023">2023</data>
+            //       </div>
+
+            //       <ul class="card-list">
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="people-outline"></ion-icon>
+
+            //           <span class="card-item-text">4 Человека</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="flash-outline"></ion-icon>
+
+            //           <span class="card-item-text">Бензин</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="speedometer-outline"></ion-icon>
+
+            //           <span class="card-item-text">6.1km / 1-литр</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="hardware-chip-outline"></ion-icon>
+
+            //           <span class="card-item-text">Автомат</span>
+            //         </li>
+
+            //       </ul>
+
+            //       <div class="card-price-wrapper">
+
+                  
+            //          <div class='price'>$440
+            //           </div> 
+                  
+
+               
+
+            //         <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+
+            //       </div>
+
+            //     </div>
+
+            //   </div>
+            // </li>,   
+
+       
+
+  ];
+  const items8 = [
+    <li class='car_padding'>
+              <div class="featured-car-card">
+
+                <figure class="card-banner">
+                  <img src={Zeekr_X} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+                    class="w-100"/>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Zeekr X</a>
+                    </h3>
+
+                    <data class="year" value="2023">2023</data>
+                  </div>
+
+                  <ul class="card-list">
+
+                    <li class="card-list-item">
+                      <ion-icon name="people-outline"></ion-icon>
+
+                      <span class="card-item-text">4 Человека</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="flash-outline"></ion-icon>
+
+                      <span class="card-item-text">Бензин</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="speedometer-outline"></ion-icon>
+
+                      <span class="card-item-text">9.1km / 1-литр</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                      <span class="card-item-text">Автомат</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-price-wrapper">
+
+                  
+                     <div class='price'>$440
+                      </div> 
+                  
+
+               
+
+                    <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>,
+            
+            //    <li class='car_padding'>
+            //   <div class="featured-car-card">
+
+            //     <figure class="card-banner">
+            //       <img src="https://avatars.mds.yandex.net/i?id=a39d5b6b95cdae4ff519dfd46a10de301f33cd8c-9858428-images-thumbs&n=13" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+            //         class="w-100"/>
+            //     </figure>
+
+            //     <div class="card-content">
+
+            //       <div class="card-title-wrapper">
+            //         <h3 class="h3 card-title">
+            //           <a href="#">TOYOYA Hilux </a>
+            //         </h3>
+
+            //         <data class="year" value="2023">2023</data>
+            //       </div>
+
+            //       <ul class="card-list">
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="people-outline"></ion-icon>
+
+            //           <span class="card-item-text">5 Человек</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="flash-outline"></ion-icon>
+
+            //           <span class="card-item-text">Бензин</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="speedometer-outline"></ion-icon>
+
+            //           <span class="card-item-text">6.1km / 1-литр</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="hardware-chip-outline"></ion-icon>
+
+            //           <span class="card-item-text">Автомат</span>
+            //         </li>
+
+            //       </ul>
+
+            //       <div class="card-price-wrapper">
+
+                  
+            //          <div class='price'>$440
+            //           </div> 
+                  
+
+               
+
+            //         <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+
+            //       </div>
+
+            //     </div>
+
+            //   </div>
+            // </li>,  
+            //   <li class='car_padding'>
+            //   <div class="featured-car-card">
+
+            //     <figure class="card-banner">
+            //       <img src="https://avatars.mds.yandex.net/i?id=92735a887da9c8cf711fc8813aedfe285202e214-10350639-images-thumbs&n=13" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+            //         class="w-100"/>
+            //     </figure>
+
+            //     <div class="card-content">
+
+            //       <div class="card-title-wrapper">
+            //         <h3 class="h3 card-title">
+            //           <a href="#">TOYOTA Fortuner</a>
+            //         </h3>
+
+            //         <data class="year" value="2023">2023</data>
+            //       </div>
+
+            //       <ul class="card-list">
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="people-outline"></ion-icon>
+
+            //           <span class="card-item-text">4 Человека</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="flash-outline"></ion-icon>
+
+            //           <span class="card-item-text">Бензин</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="speedometer-outline"></ion-icon>
+
+            //           <span class="card-item-text">6.1km / 1-литр</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="hardware-chip-outline"></ion-icon>
+
+            //           <span class="card-item-text">Автомат</span>
+            //         </li>
+
+            //       </ul>
+
+            //       <div class="card-price-wrapper">
+
+                  
+            //          <div class='price'>$440
+            //           </div> 
+                  
+
+               
+
+            //         <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+
+            //       </div>
+
+            //     </div>
+
+            //   </div>
+            // </li>, 
+
+            //    <li class='car_padding'>
+            //   <div class="featured-car-card">
+
+            //     <figure class="card-banner">
+            //       <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+            //         class="w-100"/>
+            //     </figure>
+
+            //     <div class="card-content">
+
+            //       <div class="card-title-wrapper">
+            //         <h3 class="h3 card-title">
+            //           <a href="#">BMW RX-5</a>
+            //         </h3>
+
+            //         <data class="year" value="2023">2023</data>
+            //       </div>
+
+            //       <ul class="card-list">
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="people-outline"></ion-icon>
+
+            //           <span class="card-item-text">4 Человека</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="flash-outline"></ion-icon>
+
+            //           <span class="card-item-text">Бензин</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="speedometer-outline"></ion-icon>
+
+            //           <span class="card-item-text">6.1km / 1-литр</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="hardware-chip-outline"></ion-icon>
+
+            //           <span class="card-item-text">Автомат</span>
+            //         </li>
+
+            //       </ul>
+
+            //       <div class="card-price-wrapper">
+
+                  
+            //          <div class='price'>$440
+            //           </div> 
+                  
+
+               
+
+            //         <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+
+            //       </div>
+
+            //     </div>
+
+            //   </div>
+            // </li>,   
+
+       
+
+  ];
+  const items9 = [
+    <li class='car_padding'>
+              <div class="featured-car-card">
+
+                <figure class="card-banner">
+                  <img src={Voyah_dream} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+                    class="w-100"/>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Voyah dream</a>
+                    </h3>
+
+                    <data class="year" value="2023">2023</data>
+                  </div>
+
+                  <ul class="card-list">
+
+                    <li class="card-list-item">
+                      <ion-icon name="people-outline"></ion-icon>
+
+                      <span class="card-item-text">4 Человека</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="flash-outline"></ion-icon>
+
+                      <span class="card-item-text">Бензин</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="speedometer-outline"></ion-icon>
+
+                      <span class="card-item-text">9.1km / 1-литр</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                      <span class="card-item-text">Автомат</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-price-wrapper">
+
+                  
+                     <div class='price'>$440
+                      </div> 
+                  
+
+               
+
+                    <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>,
+            
+            //    <li class='car_padding'>
+            //   <div class="featured-car-card">
+
+            //     <figure class="card-banner">
+            //       <img src="https://avatars.mds.yandex.net/i?id=a39d5b6b95cdae4ff519dfd46a10de301f33cd8c-9858428-images-thumbs&n=13" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+            //         class="w-100"/>
+            //     </figure>
+
+            //     <div class="card-content">
+
+            //       <div class="card-title-wrapper">
+            //         <h3 class="h3 card-title">
+            //           <a href="#">TOYOYA Hilux </a>
+            //         </h3>
+
+            //         <data class="year" value="2023">2023</data>
+            //       </div>
+
+            //       <ul class="card-list">
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="people-outline"></ion-icon>
+
+            //           <span class="card-item-text">5 Человек</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="flash-outline"></ion-icon>
+
+            //           <span class="card-item-text">Бензин</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="speedometer-outline"></ion-icon>
+
+            //           <span class="card-item-text">6.1km / 1-литр</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="hardware-chip-outline"></ion-icon>
+
+            //           <span class="card-item-text">Автомат</span>
+            //         </li>
+
+            //       </ul>
+
+            //       <div class="card-price-wrapper">
+
+                  
+            //          <div class='price'>$440
+            //           </div> 
+                  
+
+               
+
+            //         <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+
+            //       </div>
+
+            //     </div>
+
+            //   </div>
+            // </li>,  
+            //   <li class='car_padding'>
+            //   <div class="featured-car-card">
+
+            //     <figure class="card-banner">
+            //       <img src="https://avatars.mds.yandex.net/i?id=92735a887da9c8cf711fc8813aedfe285202e214-10350639-images-thumbs&n=13" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+            //         class="w-100"/>
+            //     </figure>
+
+            //     <div class="card-content">
+
+            //       <div class="card-title-wrapper">
+            //         <h3 class="h3 card-title">
+            //           <a href="#">TOYOTA Fortuner</a>
+            //         </h3>
+
+            //         <data class="year" value="2023">2023</data>
+            //       </div>
+
+            //       <ul class="card-list">
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="people-outline"></ion-icon>
+
+            //           <span class="card-item-text">4 Человека</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="flash-outline"></ion-icon>
+
+            //           <span class="card-item-text">Бензин</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="speedometer-outline"></ion-icon>
+
+            //           <span class="card-item-text">6.1km / 1-литр</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="hardware-chip-outline"></ion-icon>
+
+            //           <span class="card-item-text">Автомат</span>
+            //         </li>
+
+            //       </ul>
+
+            //       <div class="card-price-wrapper">
+
+                  
+            //          <div class='price'>$440
+            //           </div> 
+                  
+
+               
+
+            //         <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+
+            //       </div>
+
+            //     </div>
+
+            //   </div>
+            // </li>, 
+
+            //    <li class='car_padding'>
+            //   <div class="featured-car-card">
+
+            //     <figure class="card-banner">
+            //       <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+            //         class="w-100"/>
+            //     </figure>
+
+            //     <div class="card-content">
+
+            //       <div class="card-title-wrapper">
+            //         <h3 class="h3 card-title">
+            //           <a href="#">BMW RX-5</a>
+            //         </h3>
+
+            //         <data class="year" value="2023">2023</data>
+            //       </div>
+
+            //       <ul class="card-list">
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="people-outline"></ion-icon>
+
+            //           <span class="card-item-text">4 Человека</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="flash-outline"></ion-icon>
+
+            //           <span class="card-item-text">Бензин</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="speedometer-outline"></ion-icon>
+
+            //           <span class="card-item-text">6.1km / 1-литр</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="hardware-chip-outline"></ion-icon>
+
+            //           <span class="card-item-text">Автомат</span>
+            //         </li>
+
+            //       </ul>
+
+            //       <div class="card-price-wrapper">
+
+                  
+            //          <div class='price'>$440
+            //           </div> 
+                  
+
+               
+
+            //         <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+
+            //       </div>
+
+            //     </div>
+
+            //   </div>
+            // </li>,   
+
+       
+
+  ];
+  const items10 = [
+    <li class='car_padding'>
+              <div class="featured-car-card">
+
+                <figure class="card-banner">
+                  <img src={Suzuki_Jamni} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+                    class="w-100"/>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Suzuki Jamni</a>
+                    </h3>
+
+                    <data class="year" value="2023">2023</data>
+                  </div>
+
+                  <ul class="card-list">
+
+                    <li class="card-list-item">
+                      <ion-icon name="people-outline"></ion-icon>
+
+                      <span class="card-item-text">4 Человека</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="flash-outline"></ion-icon>
+
+                      <span class="card-item-text">Бензин</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="speedometer-outline"></ion-icon>
+
+                      <span class="card-item-text">9.1km / 1-литр</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                      <span class="card-item-text">Автомат</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-price-wrapper">
+
+                  
+                     <div class='price'>$440
+                      </div> 
+                  
+
+               
+
+                    <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>,
+            
+            //    <li class='car_padding'>
+            //   <div class="featured-car-card">
+
+            //     <figure class="card-banner">
+            //       <img src="https://avatars.mds.yandex.net/i?id=a39d5b6b95cdae4ff519dfd46a10de301f33cd8c-9858428-images-thumbs&n=13" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+            //         class="w-100"/>
+            //     </figure>
+
+            //     <div class="card-content">
+
+            //       <div class="card-title-wrapper">
+            //         <h3 class="h3 card-title">
+            //           <a href="#">TOYOYA Hilux </a>
+            //         </h3>
+
+            //         <data class="year" value="2023">2023</data>
+            //       </div>
+
+            //       <ul class="card-list">
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="people-outline"></ion-icon>
+
+            //           <span class="card-item-text">5 Человек</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="flash-outline"></ion-icon>
+
+            //           <span class="card-item-text">Бензин</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="speedometer-outline"></ion-icon>
+
+            //           <span class="card-item-text">6.1km / 1-литр</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="hardware-chip-outline"></ion-icon>
+
+            //           <span class="card-item-text">Автомат</span>
+            //         </li>
+
+            //       </ul>
+
+            //       <div class="card-price-wrapper">
+
+                  
+            //          <div class='price'>$440
+            //           </div> 
+                  
+
+               
+
+            //         <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+
+            //       </div>
+
+            //     </div>
+
+            //   </div>
+            // </li>,  
+            //   <li class='car_padding'>
+            //   <div class="featured-car-card">
+
+            //     <figure class="card-banner">
+            //       <img src="https://avatars.mds.yandex.net/i?id=92735a887da9c8cf711fc8813aedfe285202e214-10350639-images-thumbs&n=13" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+            //         class="w-100"/>
+            //     </figure>
+
+            //     <div class="card-content">
+
+            //       <div class="card-title-wrapper">
+            //         <h3 class="h3 card-title">
+            //           <a href="#">TOYOTA Fortuner</a>
+            //         </h3>
+
+            //         <data class="year" value="2023">2023</data>
+            //       </div>
+
+            //       <ul class="card-list">
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="people-outline"></ion-icon>
+
+            //           <span class="card-item-text">4 Человека</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="flash-outline"></ion-icon>
+
+            //           <span class="card-item-text">Бензин</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="speedometer-outline"></ion-icon>
+
+            //           <span class="card-item-text">6.1km / 1-литр</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="hardware-chip-outline"></ion-icon>
+
+            //           <span class="card-item-text">Автомат</span>
+            //         </li>
+
+            //       </ul>
+
+            //       <div class="card-price-wrapper">
+
+                  
+            //          <div class='price'>$440
+            //           </div> 
+                  
+
+               
+
+            //         <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+
+            //       </div>
+
+            //     </div>
+
+            //   </div>
+            // </li>, 
+
+            //    <li class='car_padding'>
+            //   <div class="featured-car-card">
+
+            //     <figure class="card-banner">
+            //       <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+            //         class="w-100"/>
+            //     </figure>
+
+            //     <div class="card-content">
+
+            //       <div class="card-title-wrapper">
+            //         <h3 class="h3 card-title">
+            //           <a href="#">BMW RX-5</a>
+            //         </h3>
+
+            //         <data class="year" value="2023">2023</data>
+            //       </div>
+
+            //       <ul class="card-list">
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="people-outline"></ion-icon>
+
+            //           <span class="card-item-text">4 Человека</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="flash-outline"></ion-icon>
+
+            //           <span class="card-item-text">Бензин</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="speedometer-outline"></ion-icon>
+
+            //           <span class="card-item-text">6.1km / 1-литр</span>
+            //         </li>
+
+            //         <li class="card-list-item">
+            //           <ion-icon name="hardware-chip-outline"></ion-icon>
+
+            //           <span class="card-item-text">Автомат</span>
+            //         </li>
+
+            //       </ul>
+
+            //       <div class="card-price-wrapper">
+
+                  
+            //          <div class='price'>$440
+            //           </div> 
+                  
+
+               
+
+            //         <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+
+            //       </div>
+
+            //     </div>
+
+            //   </div>
+            // </li>,   
+
+       
+
+  ];
+
   // const responsive = {
   //   superLargeDesktop: {
   //     // the naming can be any, depends on you.
@@ -1234,14 +2784,25 @@ function App() {
     });
 
     
-    $(".toyota").addClass("posithion");
+    $(".mersedes").addClass("posithion");
     $(".cherry").addClass("posithion");
     $(".bmw").addClass("posithion");
+    $(".Cadillac").addClass("posithion");
+    $(".Chevrolet").addClass("posithion");
+    $(".Hendai").addClass("posithion");
+    $(".Zeekr").addClass("posithion");
+    $(".Voyah").addClass("posithion");
+    $(".Suzuki").addClass("posithion");
 
-    $(".on1").addClass("color_none");
+    $(".on3").addClass("color_none");
     $(".on2").addClass("color_none");
     $(".on4").addClass("color_none");
-   
+    $(".on5").addClass("color_none");
+    $(".on6").addClass("color_none");
+    $(".on7").addClass("color_none");
+    $(".on8").addClass("color_none");
+    $(".on9").addClass("color_none");
+    $(".on10").addClass("color_none");
     $(document).ready(function(){
       $('.accordion-list > li2 > .answer').hide();
         
@@ -1259,17 +2820,58 @@ function App() {
     });
   
   },[])
-
+  document.addEventListener("DOMContentLoaded", function () {
+    var eventCalllback = function (e) {
+        var el = e.target,
+            clearVal = el.dataset.phoneClear,
+            pattern = el.dataset.phonePattern,
+            matrix_def = "+7(___) ___-__-__",
+            matrix = pattern ? pattern : matrix_def,
+            i = 0,
+            def = matrix.replace(/\D/g, ""),
+            val = e.target.value.replace(/\D/g, "");
+        if (clearVal !== 'false' && e.type === 'blur') {
+            if (val.length < matrix.match(/([\_\d])/g).length) {
+                e.target.value = '';
+                return;
+            }
+        }
+        if (def.length >= val.length) val = def;
+        e.target.value = matrix.replace(/./g, function (a) {
+            return /[_\d]/.test(a) && i < val.length ? val.charAt(i++) : i >= val.length ? "" : a
+        });
+    }
+    var phone_inputs = document.querySelectorAll('[data-phone-pattern]');
+    for (let elem of phone_inputs) {
+        for (let ev of ['input', 'blur', 'focus']) {
+            elem.addEventListener(ev, eventCalllback);
+        }
+    }
+});
   const click = e => {
     $(".mersedes").addClass("posithion");
     $(".toyota").addClass("posithion");
     $(".cherry").addClass("posithion");
     $(".bmw").addClass("posithion");
 
+    $(".Cadillac").addClass("posithion");
+    $(".Chevrolet").addClass("posithion");
+    $(".Hendai").addClass("posithion");
+    $(".Zeekr").addClass("posithion");
+    $(".Voyah").addClass("posithion");
+    $(".Suzuki").addClass("posithion");
+
     $(".on2").addClass("color_none");
     $(".on1").addClass("color_none");
     $(".on3").addClass("color_none");
     $(".on4").addClass("color_none");
+
+    $(".on5").addClass("color_none");
+    $(".on6").addClass("color_none");
+    $(".on7").addClass("color_none");
+    $(".on8").addClass("color_none");
+    $(".on9").addClass("color_none");
+    $(".on10").addClass("color_none");
 
     const link = e.target.getAttribute('link')
     // $(`.${link}`).removeClass('display_none')
@@ -1352,7 +2954,7 @@ function App() {
       <div class='text_01'>Подскажите номер телефона и наш менеджер свяжется с вами в течении часа </div>
     <div class='container_1'>
 
-    <input id="phone" placeholder='+7 (***)-***-**-**' class='input_1 demo-3' onChange={ e => setphone(e.target.value)} type='number'  />
+    <input id="phone" placeholder='+7' type="text" name="" data-phone-pattern = "+7 (___) ___-__-__" class='input_1 demo-3' onChange={ e => setphone(e.target.value)} />
     <div class='text_01 text_01_'>{mess}</div>
     <div type="submit" class="btn btn_2 f_s_16" onClick={order}>Уточнить наличие</div>
     <div type="submit" class="btn btn_2 btn_23" onClick={order}>Заявка создана</div>
@@ -1406,9 +3008,9 @@ function App() {
 <li>
   <a id='one_4' data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample"class="navbar-link" data-nav-link>Популярный выбор</a>
 </li>
-<li>
+{/* <li>
   <a id='one_5' class="navbar-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" data-nav-link>Санкционные</a>
-</li>
+</li> */}
 <li>
   <a id='one_6' class="navbar-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample" data-nav-link>Этапы оформления</a>
 </li>
@@ -1433,14 +3035,14 @@ function App() {
         </a>
 
 
-        <a href="#featured-car" class="btn z_ind_2000" aria-labelledby="aria-label-txt">
+        <a href="#featured-car" class="btn z_ind_2000 bgcoo" aria-labelledby="aria-label-txt">
           <ion-icon class='d_act' name="car-outline"></ion-icon>
           <span id="aria-label-txt">Каталог</span>
         </a>
 
 
         
-        <a class="btn user-btn  z_ind_2000" id='one_2' aria-label="Profile">
+        <a class="bgcoo_ btn user-btn  z_ind_2000" id='one_2' aria-label="Profile">
           <ion-icon name="person-outline"></ion-icon>
         </a>
 
@@ -1499,7 +3101,7 @@ function App() {
             </div>
 
 
-<div type="submit" class="btn" onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal">Уточнить наличие</div>
+<div type="submit" class="btn bgcoo" onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal">Уточнить наличие</div>
         
 
 <a href='#featured-car' type="submit" class="btn btn_1">Каталог</a>
@@ -1574,14 +3176,15 @@ function App() {
 <div class="get-start-card get-start-card_1 fs_22 info_10" >
 <h3  class="accordion-button collapsed card-title fs_22 " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne1" aria-expanded="false" aria-controls="flush-collapseOne1">История компании</h3>
     <div id="flush-collapseOne1" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample1">
-      <div class="accordion-body">Здесь будет ответ на заданный вопрос Здесь будет ответ на заданный вопрос</div>
+      <div class="accordion-body">Наша компания уникальна тем, что начала работу до событий в стране, а именно до СВО, но мы занимались в основном б/у авто из Китая <br/> <br/>
+      После того, как автомобильный рынок пошатнулся в России, имея приобретённый опыт мы начали работать полноценно! Одновременно мы работаем на качество, чтобы клиент был рад и всегда мог надеется на нас! </div>
     </div>
 </div>
 
 <div class="get-start-card get-start-card_1 fs_22 info_10" >
 <h3  class="accordion-button collapsed card-title fs_22 " type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne11" aria-expanded="false" aria-controls="flush-collapseOne11">Рынок автомобилей сейчас</h3>
    <div id="flush-collapseOne11" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample1">
-      <div class="accordion-body">Здесь будет ответ на заданный вопрос Здесь будет ответ на заданный вопрос </div>
+      <div class="accordion-body"> В мире насчитывается около десятки тысяч автопроизводителей и если вы хотите приобрести автомобиль, который не размещён на нашем сайте, то мы с удовольствием привезем, Растаможим и оформим автомобиль.  </div>
     </div>
 </div>
 
@@ -1598,13 +3201,21 @@ function App() {
         <div class="" >
         <h2 class="h2 section-title mr-10_ marr" >Каталог</h2>
        
-<div class='d-fle mb_10_'>
-<h2 class="h2 section-title mr-10 on1 " onClick={click} link='toyota'  link1='on1'>TOYOTA</h2>
-<h2 class="h2 section-title mr-10 on2 "onClick={click} link='bmw' link1='on2'>BMW</h2>
-          <h2 class="h2 section-title mr-10 on3"onClick={click} link='mersedes' link1='on3'>MERSEDES</h2>
+<div class='d-fle mb_10_ padding'>
+<h2 class="h2 section-title mr-10 on1 " onClick={click} link='toyota'  link1='on1'>Lexus</h2>
+<h2 class="h2 section-title mr-10 on2 "onClick={click} link='bmw' link1='on2'>Toyota</h2>
+          <h2 class="h2 section-title mr-10 on3"onClick={click} link='mersedes' link1='on3'>Tesla</h2>
 
-          <h2 class="h2 section-title mr-10 on4"onClick={click}  link='cherry' link1='on4'>CHERRY</h2>
-          
+          <h2 class="h2 section-title mr-10 on4"onClick={click}  link='cherry' link1='on4'>Volkswagen</h2>
+          <h2 class="h2 section-title mr-10 on5 " onClick={click} link='Cadillac'  link1='on5'>Cadillac</h2>
+<h2 class="h2 section-title mr-10 on6 "onClick={click} link='Chevrolet' link1='on6'>Chevrolet</h2>
+          <h2 class="h2 section-title mr-10 on7"onClick={click} link='Hendai' link1='on7'>Hendai</h2>
+
+          <h2 class="h2 section-title mr-10 on8"onClick={click}  link='Zeekr' link1='on8'>Zeekr</h2>
+
+          <h2 class="h2 section-title mr-10 on9"onClick={click} link='Voyah' link1='on9'>Voyah</h2>
+
+          <h2 class="h2 section-title mr-10 on10"onClick={click}  link='Suzuki' link1='on10'>Suzuki</h2>
 </div>
           
 
@@ -1614,7 +3225,7 @@ function App() {
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
+                  <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -1625,7 +3236,7 @@ function App() {
                       <a href="#">BMW RX-5</a>
                     </h3>
 
-                    <data class="year" value="2021">2021</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -1678,7 +3289,7 @@ function App() {
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                  <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -1689,7 +3300,7 @@ function App() {
                       <a href="#">Toyota RAV4</a>
                     </h3>
 
-                    <data class="year" value="2021">2021</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -1740,7 +3351,7 @@ function App() {
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                  <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -1751,7 +3362,7 @@ function App() {
                       <a href="#">Toyota RAV4</a>
                     </h3>
 
-                    <data class="year" value="2021">2021</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -1800,7 +3411,7 @@ function App() {
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                  <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -1811,7 +3422,7 @@ function App() {
                       <a href="#">Toyota RAV4</a>
                     </h3>
 
-                    <data class="year" value="2021">2021</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -1906,7 +3517,7 @@ function App() {
     <div class="featured-car-card">
 
       <figure class="card-banner">
-        <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+        <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2023" loading="lazy" width="440" height="300"
           class="w-100"/>
       </figure>
 
@@ -1917,7 +3528,7 @@ function App() {
             <a href="#">MERSEDES </a>
           </h3>
 
-          <data class="year" value="2021">2021</data>
+          <data class="year" value="2023">2023</data>
         </div>
 
         <ul class="card-list">
@@ -1967,7 +3578,7 @@ function App() {
     <div class="featured-car-card">
 
       <figure class="card-banner">
-        <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+        <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2023" loading="lazy" width="440" height="300"
           class="w-100"/>
       </figure>
 
@@ -1978,7 +3589,7 @@ function App() {
             <a href="#">Toyota RAV4</a>
           </h3>
 
-          <data class="year" value="2021">2021</data>
+          <data class="year" value="2023">2023</data>
         </div>
 
         <ul class="card-list">
@@ -2028,7 +3639,7 @@ function App() {
     <div class="featured-car-card">
 
       <figure class="card-banner">
-        <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+        <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2023" loading="lazy" width="440" height="300"
           class="w-100"/>
       </figure>
 
@@ -2039,7 +3650,7 @@ function App() {
             <a href="#">Toyota RAV4</a>
           </h3>
 
-          <data class="year" value="2021">2021</data>
+          <data class="year" value="2023">2023</data>
         </div>
 
         <ul class="card-list">
@@ -2090,7 +3701,7 @@ function App() {
     <div class="featured-car-card">
 
       <figure class="card-banner">
-        <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+        <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2023" loading="lazy" width="440" height="300"
           class="w-100"/>
       </figure>
 
@@ -2101,7 +3712,7 @@ function App() {
             <a href="#">Toyota RAV4</a>
           </h3>
 
-          <data class="year" value="2021">2021</data>
+          <data class="year" value="2023">2023</data>
         </div>
 
         <ul class="card-list">
@@ -2195,7 +3806,7 @@ function App() {
     <div class="featured-car-card">
 
       <figure class="card-banner">
-        <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+        <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2023" loading="lazy" width="440" height="300"
           class="w-100"/>
       </figure>
 
@@ -2206,7 +3817,7 @@ function App() {
             <a href="#">Toyota RAV4</a>
           </h3>
 
-          <data class="year" value="2021">2021</data>
+          <data class="year" value="2023">2023</data>
         </div>
 
         <ul class="card-list">
@@ -2256,7 +3867,7 @@ function App() {
     <div class="featured-car-card">
 
       <figure class="card-banner">
-        <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+        <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2023" loading="lazy" width="440" height="300"
           class="w-100"/>
       </figure>
 
@@ -2267,7 +3878,7 @@ function App() {
             <a href="#">Toyota RAV4</a>
           </h3>
 
-          <data class="year" value="2021">2021</data>
+          <data class="year" value="2023">2023</data>
         </div>
 
         <ul class="card-list">
@@ -2317,7 +3928,7 @@ function App() {
     <div class="featured-car-card">
 
       <figure class="card-banner">
-        <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+        <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2023" loading="lazy" width="440" height="300"
           class="w-100"/>
       </figure>
 
@@ -2328,7 +3939,7 @@ function App() {
             <a href="#">Toyota RAV4</a>
           </h3>
 
-          <data class="year" value="2021">2021</data>
+          <data class="year" value="2023">2023</data>
         </div>
 
         <ul class="card-list">
@@ -2378,7 +3989,7 @@ function App() {
     <div class="featured-car-card">
 
       <figure class="card-banner">
-        <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+        <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2023" loading="lazy" width="440" height="300"
           class="w-100"/>
       </figure>
 
@@ -2389,7 +4000,7 @@ function App() {
             <a href="#">Toyota RAV4</a>
           </h3>
 
-          <data class="year" value="2021">2021</data>
+          <data class="year" value="2023">2023</data>
         </div>
 
         <ul class="card-list">
@@ -2482,7 +4093,7 @@ function App() {
     <div class="featured-car-card">
 
       <figure class="card-banner">
-        <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+        <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2023" loading="lazy" width="440" height="300"
           class="w-100"/>
       </figure>
 
@@ -2493,7 +4104,7 @@ function App() {
             <a href="#">CHERRY</a>
           </h3>
 
-          <data class="year" value="2021">2021</data>
+          <data class="year" value="2023">2023</data>
         </div>
 
         <ul class="card-list">
@@ -2543,7 +4154,7 @@ function App() {
     <div class="featured-car-card">
 
       <figure class="card-banner">
-        <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+        <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2023" loading="lazy" width="440" height="300"
           class="w-100"/>
       </figure>
 
@@ -2554,7 +4165,7 @@ function App() {
             <a href="#">Toyota RAV4</a>
           </h3>
 
-          <data class="year" value="2021">2021</data>
+          <data class="year" value="2023">2023</data>
         </div>
 
         <ul class="card-list">
@@ -2606,7 +4217,7 @@ function App() {
     <div class="featured-car-card">
 
       <figure class="card-banner">
-        <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+        <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2023" loading="lazy" width="440" height="300"
           class="w-100"/>
       </figure>
 
@@ -2617,7 +4228,7 @@ function App() {
             <a href="#">Toyota RAV4</a>
           </h3>
 
-          <data class="year" value="2021">2021</data>
+          <data class="year" value="2023">2023</data>
         </div>
 
         <ul class="card-list">
@@ -2668,7 +4279,7 @@ function App() {
     <div class="featured-car-card">
 
       <figure class="card-banner">
-        <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+        <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2023" loading="lazy" width="440" height="300"
           class="w-100"/>
       </figure>
 
@@ -2679,7 +4290,7 @@ function App() {
             <a href="#">Toyota RAV4</a>
           </h3>
 
-          <data class="year" value="2021">2021</data>
+          <data class="year" value="2023">2023</data>
         </div>
 
         <ul class="card-list">
@@ -2780,7 +4391,7 @@ function App() {
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
+                  <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -2791,7 +4402,7 @@ function App() {
                       <a href="#">BMW RX-5</a>
                     </h3>
 
-                    <data class="year" value="2021">2021</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -2844,7 +4455,7 @@ function App() {
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
+                  <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -2855,7 +4466,7 @@ function App() {
                       <a href="#">BMW RX-5</a>
                     </h3>
 
-                    <data class="year" value="2021">2021</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -2908,7 +4519,7 @@ function App() {
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
+                  <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -2919,7 +4530,7 @@ function App() {
                       <a href="#">BMW RX-5</a>
                     </h3>
 
-                    <data class="year" value="2021">2021</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -2972,7 +4583,7 @@ function App() {
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
+                  <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -2983,7 +4594,7 @@ function App() {
                       <a href="#">BMW RX-5</a>
                     </h3>
 
-                    <data class="year" value="2021">2021</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -3036,7 +4647,7 @@ function App() {
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
+                  <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -3047,7 +4658,7 @@ function App() {
                       <a href="#">BMW RX-5</a>
                     </h3>
 
-                    <data class="year" value="2021">2021</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -3100,7 +4711,7 @@ function App() {
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
+                  <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -3111,7 +4722,7 @@ function App() {
                       <a href="#">BMW RX-5</a>
                     </h3>
 
-                    <data class="year" value="2021">2021</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -3164,7 +4775,7 @@ function App() {
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
+                  <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -3175,7 +4786,7 @@ function App() {
                       <a href="#">BMW RX-5</a>
                     </h3>
 
-                    <data class="year" value="2021">2021</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -3228,7 +4839,7 @@ function App() {
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
+                  <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -3239,7 +4850,7 @@ function App() {
                       <a href="#">BMW RX-5</a>
                     </h3>
 
-                    <data class="year" value="2021">2021</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -3300,7 +4911,7 @@ function App() {
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
+                  <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -3311,7 +4922,7 @@ function App() {
                       <a href="#">BMW RX-5</a>
                     </h3>
 
-                    <data class="year" value="2021">2021</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -3364,7 +4975,7 @@ function App() {
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
+                  <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -3375,7 +4986,7 @@ function App() {
                       <a href="#">BMW RX-5</a>
                     </h3>
 
-                    <data class="year" value="2021">2021</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -3428,7 +5039,7 @@ function App() {
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
+                  <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -3439,7 +5050,7 @@ function App() {
                       <a href="#">BMW RX-5</a>
                     </h3>
 
-                    <data class="year" value="2021">2021</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -3492,7 +5103,7 @@ function App() {
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
+                  <img src="./assets/images/car-1.jpg" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -3503,7 +5114,7 @@ function App() {
                       <a href="#">BMW RX-5</a>
                     </h3>
 
-                    <data class="year" value="2021">2021</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -3574,7 +5185,29 @@ function App() {
    <Carousel22 items1={items4} />
    </div>
 
+   <div class='Cadillac marr' link='Cadillac'>
+   <Carousel23 items1={items5} />
+   </div>
 
+   <div class='Chevrolet marr' link='Chevrolet'>
+   <Carousel23 items1={items6} />
+   </div>
+
+   <div class='Hendai marr' link='Hendai'>
+   <Carousel22 items1={items7} />
+   </div>
+
+   <div class='Zeekr marr' link='Zeekr'>
+   <Carousel23 items1={items8} />
+   </div>
+
+   <div class='Voyah marr' link='Voyah'>
+   <Carousel23 items1={items9} />
+   </div>
+
+   <div class='Suzuki marr' link='Suzuki'>
+   <Carousel23 items1={items10} />
+   </div>
       {/* <div class='bmw' link='bmw'>
 <AliceCarousel 
 disableDotsControls
@@ -3639,7 +5272,7 @@ disableDotsControls
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                  <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -3650,7 +5283,7 @@ disableDotsControls
                       <a href="#">Toyota RAV4</a>
                     </h3>
 
-                    <data class="year" value="2021">2021</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -3701,7 +5334,7 @@ disableDotsControls
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                  <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -3712,7 +5345,7 @@ disableDotsControls
                       <a href="#">Toyota RAV4</a>
                     </h3>
 
-                    <data class="year" value="2021">2021</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -3764,7 +5397,7 @@ disableDotsControls
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                  <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -3775,7 +5408,7 @@ disableDotsControls
                       <a href="#">Toyota RAV4</a>
                     </h3>
 
-                    <data class="year" value="2021">2021</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -3826,7 +5459,7 @@ disableDotsControls
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                  <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -3837,7 +5470,7 @@ disableDotsControls
                       <a href="#">Toyota RAV4</a>
                     </h3>
 
-                    <data class="year" value="2021">2021</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -3966,7 +5599,7 @@ disableDotsControls
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                  <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -3977,7 +5610,7 @@ disableDotsControls
                       <a href="#">Toyota RAV4</a>
                     </h3>
 
-                    <data class="year" value="2021">2021</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -4028,7 +5661,7 @@ disableDotsControls
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                  <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -4039,7 +5672,7 @@ disableDotsControls
                       <a href="#">Toyota RAV4</a>
                     </h3>
 
-                    <data class="year" value="2021">2021</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -4090,7 +5723,7 @@ disableDotsControls
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                  <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -4101,7 +5734,7 @@ disableDotsControls
                       <a href="#">Toyota RAV4</a>
                     </h3>
 
-                    <data class="year" value="2021">2021</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -4152,7 +5785,7 @@ disableDotsControls
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                  <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -4163,7 +5796,7 @@ disableDotsControls
                       <a href="#">Toyota RAV4</a>
                     </h3>
 
-                    <data class="year" value="2021">2021</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -4291,7 +5924,7 @@ disableDotsControls
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                  <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -4302,7 +5935,7 @@ disableDotsControls
                       <a href="#">Toyota RAV4</a>
                     </h3>
 
-                    <data class="year" value="2021">2021</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -4353,7 +5986,7 @@ disableDotsControls
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                  <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -4364,7 +5997,7 @@ disableDotsControls
                       <a href="#">Toyota RAV4</a>
                     </h3>
 
-                    <data class="year" value="2021">2021</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -4416,7 +6049,7 @@ disableDotsControls
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                  <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -4427,7 +6060,7 @@ disableDotsControls
                       <a href="#">Toyota RAV4</a>
                     </h3>
 
-                    <data class="year" value="2021">2021</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -4479,7 +6112,7 @@ disableDotsControls
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2021" loading="lazy" width="440" height="300"
+                  <img src="./assets/images/car-1.jpg" alt="Toyota RAV4 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -4490,7 +6123,7 @@ disableDotsControls
                       <a href="#">Toyota RAV4</a>
                     </h3>
 
-                    <data class="year" value="2021">2021</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -4601,7 +6234,7 @@ disableDotsControls
                <div class="featured-car-card">
  
                  <figure class="card-banner">
-                   <img src="https://psv4.userapi.com/c909628/u210034432/docs/d26/f6f0b97cab74/cq5dam_resized_img_585_low_time1623940443382.jpg?extra=kKvo05X4AxrKg0fliPu_0UzXlwiyi1vF2CWq0lCFXAzBu2ynmcvaNsx9r19JCtP36nSy54GuOnPCq5Ey-UhV_NzhcTsR7Ud0h_1pU75STv1DcHIQx6ZZLPQRMWk0CxUvIQlDcfs9NgneDJtS-HUVAT9e" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
+                   <img src={camry_toyota1} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
                      class="w-100"/>
                  </figure>
  
@@ -4609,10 +6242,10 @@ disableDotsControls
  
                    <div class="card-title-wrapper">
                      <h3 class="h3 card-title">
-                       <a href="#">BMW X7</a>
+                       <a href="#">Toyota Camry</a>
                      </h3>
  
-                     <data class="year" value="2021">2023</data>
+                     <data class="year" value="2023">2023</data>
                    </div>
  
                    <ul class="card-list">
@@ -4664,7 +6297,7 @@ disableDotsControls
                 <div class="featured-car-card">
   
                   <figure class="card-banner">
-                    <img src="https://s.auto.drom.ru/i24195/c/photos/fullsize/chery/tiggo/chery_tiggo_420962.jpg" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
+                    <img src={Toyota_Sequoia} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
                       class="w-100"/>
                   </figure>
   
@@ -4672,10 +6305,201 @@ disableDotsControls
   
                     <div class="card-title-wrapper">
                       <h3 class="h3 card-title">
-                        <a href="#">Chery Tiggo T11</a>
+                        <a href="#">Toyota Sequoia</a>
                       </h3>
   
-                      <data class="year" value="2021">2021</data>
+                      <data class="year" value="2023">2023</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">4 Человека</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Бензин</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">6.1km / 1-литр</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Автомат</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                    
+                       <div class='price'>$440
+                        </div> 
+                    
+  
+                 
+  
+                      <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+              <li class=''>
+               <div class="featured-car-card">
+ 
+                 <figure class="card-banner">
+                   <img src={Geely_Monjaro} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+                     class="w-100"/>
+                 </figure>
+ 
+                 <div class="card-content">
+ 
+                   <div class="card-title-wrapper">
+                     <h3 class="h3 card-title">
+                       <a href="#">Geely Monjaro</a>
+                     </h3>
+ 
+                     <data class="year" value="2023">2023</data>
+                   </div>
+ 
+                   <ul class="card-list">
+ 
+                     <li class="card-list-item">
+                       <ion-icon name="people-outline"></ion-icon>
+ 
+                       <span class="card-item-text">4 Человека</span>
+                     </li>
+ 
+                     <li class="card-list-item">
+                       <ion-icon name="flash-outline"></ion-icon>
+ 
+                       <span class="card-item-text">Бензин</span>
+                     </li>
+ 
+                     <li class="card-list-item">
+                       <ion-icon name="speedometer-outline"></ion-icon>
+ 
+                       <span class="card-item-text">6.1km / 1-литр</span>
+                     </li>
+ 
+                     <li class="card-list-item">
+                       <ion-icon name="hardware-chip-outline"></ion-icon>
+ 
+                       <span class="card-item-text">Автомат</span>
+                     </li>
+ 
+                   </ul>
+ 
+                   <div class="card-price-wrapper">
+ 
+                   
+                      <div class='price'>$440
+                       </div> 
+                   
+ 
+                
+ 
+                     <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+ 
+                   </div>
+ 
+                 </div>
+ 
+               </div>
+             </li>
+  <li class=''>
+              <div class="featured-car-card">
+
+                <figure class="card-banner">
+                  <img src={Lixiang_L9} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+                    class="w-100"/>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Lixiang L9</a>
+                    </h3>
+
+                    <data class="year" value="2023">2023</data>
+                  </div>
+
+                  <ul class="card-list">
+
+                    <li class="card-list-item">
+                      <ion-icon name="people-outline"></ion-icon>
+
+                      <span class="card-item-text">4 Человека</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="flash-outline"></ion-icon>
+
+                      <span class="card-item-text">Бензин</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="speedometer-outline"></ion-icon>
+
+                      <span class="card-item-text">6.1km / 1-литр</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                      <span class="card-item-text">Автомат</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-price-wrapper">
+
+                  
+                     <div class='price'>$440
+                      </div> 
+                  
+
+               
+
+                    <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+              
+   
+             <li class=''>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src={Lixiang_L8} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+                      class="w-100"/>
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Lixiang L8</a>
+                      </h3>
+  
+                      <data class="year" value="2023">2023</data>
                     </div>
   
                     <ul class="card-list">
@@ -4728,7 +6552,7 @@ disableDotsControls
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="https://psv4.userapi.com/c909628/u210034432/docs/d2/b324ec5fbc55/image_1615993584956.jpg?extra=eCssfyxTboQQKdZbWqu-1Tkw148oXGq6-JmNI9n3D_59YC0hFPIb0-RM5JuvAiR8Oi0WdtMyfdrzsNiZY5bMahROY3XTA_lFJp5xmDBAjsmEzOp2afnUCeUO0WSHydBqDtQmRPAgGlUmEN5MQIOYw1Dv" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
+                  <img src={Lixiang_L7} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -4736,10 +6560,138 @@ disableDotsControls
 
                   <div class="card-title-wrapper">
                     <h3 class="h3 card-title">
-                      <a href="#">BMW 740Li xDrive</a>
+                      <a href="#">Lixiang L7</a>
                     </h3>
 
-                    <data class="year" value="2021">2023</data>
+                    <data class="year" value="2023">2023</data>
+                  </div>
+
+                  <ul class="card-list">
+
+                    <li class="card-list-item">
+                      <ion-icon name="people-outline"></ion-icon>
+
+                      <span class="card-item-text">4 Человека</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="flash-outline"></ion-icon>
+
+                      <span class="card-item-text">Бензин</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="speedometer-outline"></ion-icon>
+
+                      <span class="card-item-text">6.1km / 1-литр</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                      <span class="card-item-text">Автомат</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-price-wrapper">
+
+                  
+                     <div class='price'>$440
+                      </div> 
+                  
+
+               
+
+                    <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li> 
+         
+             <li class=''>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src={Geely_Coolray} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+                      class="w-100"/>
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Geely Coolray</a>
+                      </h3>
+  
+                      <data class="year" value="2023">2023</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">4 Человека</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Бензин</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">6.1km / 1-литр</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Автомат</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                    
+                       <div class='price'>$440
+                        </div> 
+                    
+  
+                 
+  
+                      <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+  <li class=''>
+              <div class="featured-car-card">
+
+                <figure class="card-banner">
+                  <img src={Voyah_Dream} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+                    class="w-100"/>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Voyah Dream</a>
+                    </h3>
+
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -4788,14 +6740,518 @@ disableDotsControls
               </div>
             </li>
               
-             
+            <li class=''>
+               <div class="featured-car-card">
+ 
+                 <figure class="card-banner">
+                   <img src={Voyah_Free} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+                     class="w-100"/>
+                 </figure>
+ 
+                 <div class="card-content">
+ 
+                   <div class="card-title-wrapper">
+                     <h3 class="h3 card-title">
+                       <a href="#">Voyah Free</a>
+                     </h3>
+ 
+                     <data class="year" value="2023">2023</data>
+                   </div>
+ 
+                   <ul class="card-list">
+ 
+                     <li class="card-list-item">
+                       <ion-icon name="people-outline"></ion-icon>
+ 
+                       <span class="card-item-text">4 Человека</span>
+                     </li>
+ 
+                     <li class="card-list-item">
+                       <ion-icon name="flash-outline"></ion-icon>
+ 
+                       <span class="card-item-text">Бензин</span>
+                     </li>
+ 
+                     <li class="card-list-item">
+                       <ion-icon name="speedometer-outline"></ion-icon>
+ 
+                       <span class="card-item-text">6.1km / 1-литр</span>
+                     </li>
+ 
+                     <li class="card-list-item">
+                       <ion-icon name="hardware-chip-outline"></ion-icon>
+ 
+                       <span class="card-item-text">Автомат</span>
+                     </li>
+ 
+                   </ul>
+ 
+                   <div class="card-price-wrapper">
+ 
+                   
+                      <div class='price'>$440
+                       </div> 
+                   
+ 
+                
+ 
+                     <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+ 
+                   </div>
+ 
+                 </div>
+ 
+               </div>
+             </li>
+             <li class=''>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src={Hongqi_H5} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+                      class="w-100"/>
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Hongqi H5</a>
+                      </h3>
+  
+                      <data class="year" value="2023">2023</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">4 Человека</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Бензин</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">6.1km / 1-литр</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Автомат</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                    
+                       <div class='price'>$440
+                        </div> 
+                    
+  
+                 
+  
+                      <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
 
+  <li class=''>
+              <div class="featured-car-card">
 
+                <figure class="card-banner">
+                  <img src={Hongqi_HS5} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+                    class="w-100"/>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Hongqi HS5</a>
+                    </h3>
+
+                    <data class="year" value="2023">2023</data>
+                  </div>
+
+                  <ul class="card-list">
+
+                    <li class="card-list-item">
+                      <ion-icon name="people-outline"></ion-icon>
+
+                      <span class="card-item-text">4 Человека</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="flash-outline"></ion-icon>
+
+                      <span class="card-item-text">Бензин</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="speedometer-outline"></ion-icon>
+
+                      <span class="card-item-text">6.1km / 1-литр</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                      <span class="card-item-text">Автомат</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-price-wrapper">
+
+                  
+                     <div class='price'>$440
+                      </div> 
+                  
+
+               
+
+                    <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li> 
+            <li class=''>
+              <div class="featured-car-card">
+
+                <figure class="card-banner">
+                  <img src={Zeekr_X} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+                    class="w-100"/>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Zeekr X</a>
+                    </h3>
+
+                    <data class="year" value="2023">2023</data>
+                  </div>
+
+                  <ul class="card-list">
+
+                    <li class="card-list-item">
+                      <ion-icon name="people-outline"></ion-icon>
+
+                      <span class="card-item-text">4 Человека</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="flash-outline"></ion-icon>
+
+                      <span class="card-item-text">Бензин</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="speedometer-outline"></ion-icon>
+
+                      <span class="card-item-text">6.1km / 1-литр</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                      <span class="card-item-text">Автомат</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-price-wrapper">
+
+                  
+                     <div class='price'>$440
+                      </div> 
+                  
+
+               
+
+                    <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+              
+            <li class=''>
+               <div class="featured-car-card">
+ 
+                 <figure class="card-banner">
+                   <img src={Zeekr_001} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+                     class="w-100"/>
+                 </figure>
+ 
+                 <div class="card-content">
+ 
+                   <div class="card-title-wrapper">
+                     <h3 class="h3 card-title">
+                       <a href="#">Zeekr 001</a>
+                     </h3>
+ 
+                     <data class="year" value="2023">2023</data>
+                   </div>
+ 
+                   <ul class="card-list">
+ 
+                     <li class="card-list-item">
+                       <ion-icon name="people-outline"></ion-icon>
+ 
+                       <span class="card-item-text">4 Человека</span>
+                     </li>
+ 
+                     <li class="card-list-item">
+                       <ion-icon name="flash-outline"></ion-icon>
+ 
+                       <span class="card-item-text">Бензин</span>
+                     </li>
+ 
+                     <li class="card-list-item">
+                       <ion-icon name="speedometer-outline"></ion-icon>
+ 
+                       <span class="card-item-text">6.1km / 1-литр</span>
+                     </li>
+ 
+                     <li class="card-list-item">
+                       <ion-icon name="hardware-chip-outline"></ion-icon>
+ 
+                       <span class="card-item-text">Автомат</span>
+                     </li>
+ 
+                   </ul>
+ 
+                   <div class="card-price-wrapper">
+ 
+                   
+                      <div class='price'>$440
+                       </div> 
+                   
+ 
+                
+ 
+                     <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+ 
+                   </div>
+ 
+                 </div>
+ 
+               </div>
+             </li>
+             <li class=''>
+                <div class="featured-car-card">
+  
+                  <figure class="card-banner">
+                    <img src="https://s.auto.drom.ru/i24195/c/photos/fullsize/chery/tiggo/chery_tiggo_420962.jpg" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+                      class="w-100"/>
+                  </figure>
+  
+                  <div class="card-content">
+  
+                    <div class="card-title-wrapper">
+                      <h3 class="h3 card-title">
+                        <a href="#">Chery Tiggo T11</a>
+                      </h3>
+  
+                      <data class="year" value="2023">2023</data>
+                    </div>
+  
+                    <ul class="card-list">
+  
+                      <li class="card-list-item">
+                        <ion-icon name="people-outline"></ion-icon>
+  
+                        <span class="card-item-text">4 Человека</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="flash-outline"></ion-icon>
+  
+                        <span class="card-item-text">Бензин</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="speedometer-outline"></ion-icon>
+  
+                        <span class="card-item-text">6.1km / 1-литр</span>
+                      </li>
+  
+                      <li class="card-list-item">
+                        <ion-icon name="hardware-chip-outline"></ion-icon>
+  
+                        <span class="card-item-text">Автомат</span>
+                      </li>
+  
+                    </ul>
+  
+                    <div class="card-price-wrapper">
+  
+                    
+                       <div class='price'>$440
+                        </div> 
+                    
+  
+                 
+  
+                      <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+  
+                    </div>
+  
+                  </div>
+  
+                </div>
+              </li>
+
+  <li class=''>
+              <div class="featured-car-card">
+
+                <figure class="card-banner">
+                  <img src={Ford_raptor} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+                    class="w-100"/>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Ford raptor</a>
+                    </h3>
+
+                    <data class="year" value="2023">2023</data>
+                  </div>
+
+                  <ul class="card-list">
+
+                    <li class="card-list-item">
+                      <ion-icon name="people-outline"></ion-icon>
+
+                      <span class="card-item-text">4 Человека</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="flash-outline"></ion-icon>
+
+                      <span class="card-item-text">Бензин</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="speedometer-outline"></ion-icon>
+
+                      <span class="card-item-text">6.1km / 1-литр</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                      <span class="card-item-text">Автомат</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-price-wrapper">
+
+                  
+                     <div class='price'>$440
+                      </div> 
+                  
+
+               
+
+                    <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li> 
+            <li class=''>
+              <div class="featured-car-card">
+
+                <figure class="card-banner">
+                  <img src={Dodge_RAM} alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
+                    class="w-100"/>
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-title-wrapper">
+                    <h3 class="h3 card-title">
+                      <a href="#">Dodge RAM</a>
+                    </h3>
+
+                    <data class="year" value="2023">2023</data>
+                  </div>
+
+                  <ul class="card-list">
+
+                    <li class="card-list-item">
+                      <ion-icon name="people-outline"></ion-icon>
+
+                      <span class="card-item-text">4 Человека</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="flash-outline"></ion-icon>
+
+                      <span class="card-item-text">Бензин</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="speedometer-outline"></ion-icon>
+
+                      <span class="card-item-text">6.1km / 1-литр</span>
+                    </li>
+
+                    <li class="card-list-item">
+                      <ion-icon name="hardware-chip-outline"></ion-icon>
+
+                      <span class="card-item-text">Автомат</span>
+                    </li>
+
+                  </ul>
+
+                  <div class="card-price-wrapper">
+
+                  
+                     <div class='price'>$440
+                      </div> 
+                  
+
+               
+
+                    <button onClick={()=>togg()} data-bs-toggle="modal" data-bs-target="#exampleModal"class="btn">Уточнить наличие</button>
+
+                  </div>
+
+                </div>
+
+              </div>
+            </li> 
 </ul>
 
 </div>
 
-
+{/* 
 <section class="section featured-car pb_0" id='one_5_' >
 
         <div class="container" >
@@ -4816,7 +7272,7 @@ disableDotsControls
               <div class="featured-car-card">
 
                 <figure class="card-banner">
-                  <img src="https://avatars.mds.yandex.net/i?id=a39d5b6b95cdae4ff519dfd46a10de301f33cd8c-9858428-images-thumbs&n=13" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
+                  <img src="https://avatars.mds.yandex.net/i?id=a39d5b6b95cdae4ff519dfd46a10de301f33cd8c-9858428-images-thumbs&n=13" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
                     class="w-100"/>
                 </figure>
 
@@ -4827,7 +7283,7 @@ disableDotsControls
                       <a href="#">TOYOYA Hilux </a>
                     </h3>
 
-                    <data class="year" value="2021">2021</data>
+                    <data class="year" value="2023">2023</data>
                   </div>
 
                   <ul class="card-list">
@@ -4880,7 +7336,7 @@ disableDotsControls
     <div class="featured-car-card">
 
       <figure class="card-banner">
-        <img src="https://foto.carexpert.ru/img/foto1680/bmw/bmwix052.jpg" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
+        <img src="https://foto.carexpert.ru/img/foto1680/bmw/bmwix052.jpg" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
           class="w-100"/>
       </figure>
 
@@ -4891,7 +7347,7 @@ disableDotsControls
             <a href="#">BMW iX M60.</a>
           </h3>
 
-          <data class="year" value="2021">2023</data>
+          <data class="year" value="2023">2023</data>
         </div>
 
         <ul class="card-list">
@@ -4944,7 +7400,7 @@ disableDotsControls
                 <div class="featured-car-card">
   
                   <figure class="card-banner">
-                    <img src="https://autogoda.ru/premiya/2022/3817598.jpg" alt="BMW RX-5 2021" loading="lazy" width="440" height="300"
+                    <img src="https://autogoda.ru/premiya/2022/3817598.jpg" alt="BMW RX-5 2023" loading="lazy" width="440" height="300"
                       class="w-100"/>
                   </figure>
   
@@ -4955,7 +7411,7 @@ disableDotsControls
                         <a href="#">Land Cruiser Prado</a>
                       </h3>
   
-                      <data class="year" value="2021">2022</data>
+                      <data class="year" value="2023">2022</data>
                     </div>
   
                     <ul class="card-list">
@@ -5008,7 +7464,9 @@ disableDotsControls
           </ul>
 
         </div>
-        </section>
+        </section> */}
+
+
       </section>
       <h2 class="h2 section-title container mb_20 pt_65" id="one_6_">Этапы покупки</h2>
 
@@ -5022,7 +7480,7 @@ disableDotsControls
                 <h3 class="card-title">Шаг 1</h3>
 
                 <p class="card-text">
-                  Вы выбираете машину , комплектацию , цвет и дату доставки
+                В первую очередь Вы должны убедиться, что компании Laati можно довериться и после чего начать процесс покупки авто! 
                 </p>
 
               </div>
@@ -5037,7 +7495,7 @@ disableDotsControls
                 <h3 class="card-title">Шаг 2</h3>
 
                 <p class="card-text">
-                  Мы оформляем договор и проводим оплату удобным вам способом
+                После того, как Вы выбрали авто, происходит полная или частичная оплата авто на ИП, в зависимости с какой Страны был приобретен автомобиль. 
                 </p>
 
               </div>
@@ -5051,7 +7509,7 @@ disableDotsControls
                 <h3 class="card-title">Шаг 3</h3>
 
                 <p class="card-text">
-                  Мы организовываем безопасную доставку авто до вашего дома 
+                После приобретения авто высылается полный пакет документов авто для оформления. Автомобиль будет доставлен  в любую точку страны по вашему по желанию или будет возможность получить автомобиль в Москве.
                 </p>
 
               </div>
@@ -5067,7 +7525,7 @@ disableDotsControls
                 <h3 class="card-title">Шаг 4</h3>
 
                 <p class="card-text">
-                  Автомобиль передается владельцу 
+                  Вы наслаждаетесь комфортом и удобством купленного автомобиля.
                 </p>
 
               </div>
@@ -5091,7 +7549,7 @@ disableDotsControls
     </button>
   </h2>
   <div id="flush-collapseOne111" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample111">
-    <div class="accordion-body">Здесь будет ответ на заданный вопрос Здесь будет ответ на заданный вопрос </div>
+    <div class="accordion-body">У нас одна из самых быстрых доставок в Росии , мы доставляем по России от 3-х дней</div>
   </div>
 
 
@@ -5100,23 +7558,16 @@ disableDotsControls
 
   <h2 class="accordion-header">
     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne1112" aria-expanded="false" aria-controls="flush-collapseOne1112">
-     Доставите к дому ? 
+     Доставите к дому? 
     </button>
   </h2>
   <div id="flush-collapseOne1112" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample111">
-    <div class="accordion-body">Здесь будет ответ на заданный вопрос Здесь будет ответ на заданный вопрос </div>
+    <div class="accordion-body">Конечно! Автомобиль будет доставлен в любую точку страны по вашему по желанию. </div>
   </div>
 
 
 
-  <h2 class="accordion-header">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne11121" aria-expanded="false" aria-controls="flush-collapseOne11121">
-     А что по оплате? 
-    </button>
-  </h2>
-  <div id="flush-collapseOne11121" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample111">
-    <div class="accordion-body">Здесь будет ответ на заданный вопрос Здесь будет ответ на заданный вопрос </div>
-  </div>
+
 </div>
 
 
@@ -5130,32 +7581,25 @@ disableDotsControls
 
   <h2 class="accordion-header">
     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne221" aria-expanded="false" aria-controls="flush-collapseOne221">
-     Как происходит оплата ? 
+     Как происходит оплата? 
     </button>
   </h2>
   <div id="flush-collapseOne221" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample221">
-    <div class="accordion-body">Здесь будет ответ на заданный вопрос Здесь будет ответ на заданный вопрос </div>
+    <div class="accordion-body">После того, как Вы выбрали авто, происходит полная или частичная оплата авто на ИП, в зависимости с какой Страны был приобретен автомобиль.  </div>
   </div>
 
 
   <h2 class="accordion-header">
     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne2212" aria-expanded="false" aria-controls="flush-collapseOne2212">
-     Какие есть варианты оплаты ? 
+     Какие есть варианты оплаты? 
     </button>
   </h2>
   <div id="flush-collapseOne2212" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample221">
-    <div class="accordion-body">Здесь будет ответ на заданный вопрос Здесь будет ответ на заданный вопрос </div>
+    <div class="accordion-body">Мы работаем с наиболее безопасным способом оплаты для вас. После заключения договора вы можете частично или полностью оплатить авто ИП.</div>
   </div>
 
 
-  <h2 class="accordion-header">
-    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne22121" aria-expanded="false" aria-controls="flush-collapseOne22121">
-     А если будут недочеты по машине ?
-    </button>
-  </h2>
-  <div id="flush-collapseOne22121" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample221">
-    <div class="accordion-body">Здесь будет ответ на заданный вопрос Здесь будет ответ на заданный вопрос </div>
-  </div>
+
 
 
 </div>
@@ -5171,7 +7615,7 @@ disableDotsControls
 
   <h2 class="accordion-header">
     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne33" aria-expanded="false" aria-controls="flush-collapseOne33">
-     Как происходит регистрация автомобиля ? 
+     Как происходит регистрация автомобиля? 
     </button>
   </h2>
   <div id="flush-collapseOne33" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample33">
@@ -5180,7 +7624,7 @@ disableDotsControls
   
     <h2 class="accordion-header">
     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne221212" aria-expanded="false" aria-controls="flush-collapseOne221212">
-     Какие необходимы доккументы ?
+     Какие необходимы доккументы?
     </button>
   </h2>
   <div id="flush-collapseOne221212" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample221212">
@@ -5329,7 +7773,7 @@ disableDotsControls
           </a>
 
           <p class="footer-text">
-             Наша компания подбирает самые надёжные автомобили для импорта в Россию и СНГ . Спасибо за то , что вы с нами !
+             Наша компания подбирает самые надёжные автомобили для импорта в Россию и СНГ. Спасибо за то, что вы с нами!
           </p>
         </div>
 
@@ -5384,34 +7828,36 @@ disableDotsControls
           </li>
 
           <li>
-            <a href="#" class="footer-link">Mersedes</a>
+            <a href="#featured-car" class="footer-link">TOYOTA</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">BMW</a>
+            <a href="#featured-car" class="footer-link">VOLKSWAGEN</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Cherry</a>
+            <a href="#featured-car" class="footer-link">CADILLAC</a>
           </li>
 
 
           <li>
-            <a href="#" class="footer-link">Санкционные</a>
+            <a href="#featured-car" class="footer-link">CHEVROLET</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Midtown</a>
+            <a href="#featured-car" class="footer-link">HENDAI</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">SoHo</a>
+            <a href="#featured-car" class="footer-link">ZEEKR</a>
           </li>
 
           <li>
-            <a href="#" class="footer-link">Chelsea</a>
+            <a href="#featured-car" class="footer-link">VOYAH</a>
           </li>
-
+          <li>
+            <a href="#featured-car" class="footer-link">SUZUKI</a>
+          </li>
         </ul>
 
       </div>

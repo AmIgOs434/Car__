@@ -103,7 +103,11 @@
 
 
 
-
+h1 {
+    text-align: center;
+    color: rgb(0 0 0 / 90%)!important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 /*-----------------------------------*\
   #RESET
@@ -304,7 +308,7 @@ button, a { transition: var(--transition); }
   height: 104px;
   border: 1px dashed #6f8a5cbe;
   display: flex;
-  border-radius: 18px;
+  border-radius: 40px 20px 40px 20px;
   margin-bottom: 18px;
   flex-wrap: wrap;
   align-items: center;
@@ -367,13 +371,13 @@ display: none;
 .demo-3::placeholder {
 	color: #000000;
   padding-top:10px;
-	font-size: 25px;
+	font-size: 18px;
 
 }
-input[type="number"] {
-  font-size: 25px;
-  padding-left:15px;
-  padding-bottom:5px;
+input[type="text"] {
+
+  padding-left:5px;
+
 }
 .section {
   padding-block: 60px!important;
@@ -427,7 +431,7 @@ height: 60px;
   max-width: 100px!important;
 }
 .input_1 {
-  font-size: 30px;
+  font-size: 16px!important;
   height: 45px;
   border-radius: 10px;
   background: none;
@@ -1028,11 +1032,26 @@ background-repeat: no-repeat;
 background-position: center ;
 
 }
+.bgcoo{
+  background-color: #8a0000;
+}
+.bgcoo_{
+  background-color: #ffffff!important;
+}
+.featured-car-card .card-list-item ion-icon {
+  font-size: 20px;
+  color: #1e4d399c!important;
+  --ionicon-stroke-width: 38px;
+}
+.btn{
+  background-color: #347402;
+}
 .mr-10 {
   margin-right: 25px;
   font-size: 20px;
   cursor: pointer;
   line-height: 25px;
+  text-transform: uppercase;
 }
 .bmw{
   position: inherit;
@@ -1135,6 +1154,11 @@ background-position: center ;
   position: inherit;
 
 }
+
+
+
+
+
 .on1{
   color:#000
 }
@@ -1147,6 +1171,24 @@ background-position: center ;
 .on4{
   color:#000
 }
+.on5{
+  color:#000
+}
+.on6{
+  color:#000
+}
+.on7{
+  color:#000
+}
+.on8{
+  color:#000
+}
+.on9{
+  color:#000
+}
+.on10{
+  color:#000
+}
 .color_none{
   color: rgb(0 0 0 / 34%)!important
 }
@@ -1156,6 +1198,39 @@ background-position: center ;
 }
 .cherry{
   position: inherit;
+}
+
+
+.Cadillac{
+  display: flex;
+    justify-content: center;
+  position: inherit;
+}
+.Chevrolet{
+  display: flex;
+    justify-content: center;
+  position: inherit;
+}
+.Hendai{
+  position: inherit;
+}
+.Zeekr{
+  display: flex;
+    justify-content: center;
+  position: inherit;
+}
+.Voyah{
+  position: inherit;
+  display: flex;
+    justify-content: center;
+}
+.Suzuki{
+  display: flex;
+    justify-content: center;
+  position: inherit;
+}
+.w-50{
+  width: 70%!important;
 }
 .svg_car_2{
 height: 30px;
@@ -1243,9 +1318,9 @@ background-position: center ;
   gap: 20px;
 }
 .logo_{
-  font-family: fantasy;
+  font-family: unset;
   color: #140717c5;
-  font-size: 25px;
+  font-size: 23px;
 text-transform: uppercase;
 }
 .get-start-card {
@@ -1315,7 +1390,10 @@ text-transform: uppercase;
   color: var(--carolina-blue);
   width: max-content;
 }
-
+.padding{
+  padding-right: 400px;
+  padding-left: 400px;
+}
 .get-start-card .card-link::before {
   content: "";
   position: absolute;
@@ -1771,8 +1849,43 @@ text-transform: uppercase;
  * responsive for large than 992px screen
  */
 
-@media (min-width: 992px) {
 
+ @media (max-width: 1350px) {
+  .padding{
+    padding-right: 300px;
+    padding-left: 300px;
+  }
+ }
+ @media (max-width: 1200px) {
+  .padding{
+    padding-right: 200px;
+    padding-left: 200px;
+  }
+ }
+ @media (max-width: 992px) {
+  .padding{
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+ }
+ @media (max-width: 680px) {
+  .padding{
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+ }
+ @media (max-width: 500px) {
+  .padding{
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+ }
+ @media (max-width: 992px) {
+ .w-50{
+  width: 100%!important;
+}}
+@media (min-width: 992px) {
+  
   /**
    * REUSED STYLE
    */

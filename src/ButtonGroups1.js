@@ -1,6 +1,6 @@
 import AliceCarousel from "react-alice-carousel";
 
-export const Carousel22 = ({text,items1}) => {
+export const Carousel23 = ({text,items1}) => {
 
     const items = ["item1","item2","item3"]
     const responsive = {
@@ -9,7 +9,7 @@ export const Carousel22 = ({text,items1}) => {
         1197: { items: 3 },
       };
     return (
-      <div className="grid grid-cols-3 ">
+      <div className="grid grid-cols-3 w-50">
         <div className="col-span-2">  
           {text}
         </div>
